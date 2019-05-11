@@ -1,5 +1,19 @@
 # Spotify-Recommendation-Engine
 Music recommender system.
+## Steps for Layman
+### 1.This is my input data
+![This is my playlist I feed it to ](Screenshot from 2019-05-11 17-36-52.png)
+### 2.Spotify will inhouse function and extract track details.
+![After I use Spotify API to fetch tracks and arrange it into a df ](https://developer.spotify.com/assets/WebAPI_intro.png)
+### 3.This is the extracted dataframe
+![Dataframe](Screenshot from 2019-05-11 17-26-49.png)
+### 4.I do Data Analysis and use well known statistical techniques.
+
+## Voila! ,Spotipy converts this problem into a simple data analytics problem.
+
+```
+!pip install spotipy
+```
 
 ## Statistical techniques Involved:
 ### 1.Term Frequency Inverse Document Frequency
@@ -8,8 +22,5 @@ Music recommender system.
 ### 4.KNN
 ### 5.Decision Tree Classifier
 ### 6.Random Forest Classifier
+[Spotify Developer](https://beta.developer.spotify.com/documentation/web-api/) for more info 
 
-```
-!pip install spotipy
-```
-! [Spotify Developer](https://beta.developer.spotify.com/documentation/web-api/) for more info 
