@@ -11,6 +11,8 @@ Music recommender system.
 
 ## Voila! ,we convert this into a simple data analytics problem.Thanks to this Python wrapper Spotipy
 
+![Read more about Spotify's recommendation algorithm](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/Implicit%20Matrix%20Factorization.md)
+
 ```
 !pip install spotipy
 ```
