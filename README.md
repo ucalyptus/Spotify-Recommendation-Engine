@@ -19,8 +19,8 @@
 
 ## Voila! ,we convert this into a simple data analytics problem.Thanks to this Python wrapper Spotipy
 
-*[Read more about Spotify's recommendation algorithm](Implicit-Matrix-Factorization.md)*
 
+*[Read more about Spotify's recommendation algorithm](Implicit-Matrix-Factorization.md)*
 
 ## Statistical techniques Involved:
 ### 1.Term Frequency Inverse Document Frequency
