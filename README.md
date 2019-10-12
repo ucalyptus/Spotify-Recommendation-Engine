@@ -1,5 +1,13 @@
 # Spotify-Recommendation-Engine
-Music recommender system.
+
+## Requirements
+* spotipy
+```bash
+ pip install spotipy
+```
+
+***
+## Music recommender system.
 ## Steps for Layman
 ### 1.This is my input data
 ![This is my playlist I feed it to ](images/playlist_screenshot.png)
@@ -11,11 +19,8 @@ Music recommender system.
 
 ## Voila! ,we convert this into a simple data analytics problem.Thanks to this Python wrapper Spotipy
 
-![Read more about Spotify's recommendation algorithm](Implicit\ Matrix\ Factorization.md)
+*[Read more about Spotify's recommendation algorithm](Implicit-Matrix-Factorization.md)*
 
-```
-!pip install spotipy
-```
 
 ## Statistical techniques Involved:
 ### 1.Term Frequency Inverse Document Frequency
