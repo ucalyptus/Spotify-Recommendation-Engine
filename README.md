@@ -1,4 +1,3 @@
-# Spotify-Recommendation-Engine
 ![](https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif)
 
 ## Requirements
