@@ -29,5 +29,5 @@
 ### 4.KNN
 ### 5.Decision Tree Classifier
 ### 6.Random Forest Classifier
-[Spotify Developer](https://beta.developer.spotify.com/documentation/web-api/) for more info 
+[Spotify Developer](https://beta.developer.spotify.com/documentation/web-api/) for more info  
 [Gitter Link](https://gitter.im/Spotify-Recommendation-Engine/community) to join the chat room and contribute
