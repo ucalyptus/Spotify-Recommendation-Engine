@@ -1,11 +1,5 @@
 ![](https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif)
 
-## Requirements
-* spotipy
-```bash
- pip install spotipy
-```
-
 ***
 ## Music recommender system.
 ## Steps for Layman
@@ -17,6 +11,11 @@
 ![Dataframe](images/dataframe_screenshot.png)
 ### 4.I do Data Analysis and use well known statistical techniques.
 
+## Requirements
+* spotipy
+```bash
+ pip install spotipy
+```
 ## Voila! ,we convert this into a simple data analytics problem.Thanks to this Python wrapper Spotipy
 
 
