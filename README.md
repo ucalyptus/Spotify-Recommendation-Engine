@@ -23,12 +23,12 @@
 *[Read more about Spotify's recommendation algorithm](Implicit-Matrix-Factorization.md)*
 
 ## Statistical techniques Involved:
-### 1.Term Frequency Inverse Document Frequency
-### 2.Principal Component Analysis
-### 3.Stratified K Fold Cross Validation
-### 4.KNN
-### 5.Decision Tree Classifier
-### 6.Random Forest Classifier
+### 1.Term Frequency Inverse Document Frequency (http://www.tfidf.com/)
+### 2.Principal Component Analysis (http://sebastianraschka.com/Articles/2015_pca_in_3_steps.html)
+### 3.Stratified K Fold Cross Validation (https://machinelearningmastery.com/k-fold-cross-validation/)
+### 4.KNN (https://stackabuse.com/k-nearest-neighbors-algorithm-in-python-and-scikit-learn/)
+### 5.Decision Tree Classifier (http://benalexkeen.com/decision-tree-classifier-in-python-using-scikit-learn/)
+### 6.Random Forest Classifier (https://towardsdatascience.com/an-implementation-and-explanation-of-the-random-forest-in-python-77bf308a9b76)
 [Spotify Developer](https://beta.developer.spotify.com/documentation/web-api/) for more info  
 [Gitter Link](https://gitter.im/Spotify-Recommendation-Engine/community) to join the chat room and contribute
 
