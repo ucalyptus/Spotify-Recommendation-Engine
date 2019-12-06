@@ -46,4 +46,4 @@
 [Gitter Link](https://gitter.im/Spotify-Recommendation-Engine/community) to join the chat room and contribute
 
 ## KWoC contributors
-[@sibasmarak](http://github.com/sibasmarak)
+[@sibasmarak](http://github.com/sibasmarak) - [#15](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/15)
