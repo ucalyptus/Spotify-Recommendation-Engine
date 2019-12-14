@@ -1,5 +1,7 @@
 ![](https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif)
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Spotify-Recommendation-Engine/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ***
 ## Music recommender system.
 ## Steps for Layman
@@ -23,7 +25,6 @@
 
 [Spotify Developer](https://beta.developer.spotify.com/documentation/web-api/) for more info  
 
-[Gitter Link](https://gitter.im/Spotify-Recommendation-Engine/community) to join the chat room and contribute
 
 
 ### Contributing
