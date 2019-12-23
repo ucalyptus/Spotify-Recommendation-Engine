@@ -4,14 +4,16 @@
 
 ***
 ## Music recommender system.
-## Steps for Layman
-### 1.This is my input data
+
+#### [Important Announcement for KWoC contributors](ucalyptus.github.io/Spotify-Recommendation-Engine/KWoC Announcement.md)
+
+- 1.This is my input data
 ![This is my playlist I feed it to ](images/playlist_screenshot.png)
-### 2.Spotify has inhouse functions to  extract track details.
+- 2.Spotify has inhouse functions to  extract track details.
 ![After I use Spotify API to fetch tracks and arrange it into a df ](https://developer.spotify.com/assets/WebAPI_intro.png)
-### 3.This is the extracted dataframe
+- 3.This is the extracted dataframe
 ![Dataframe](images/dataframe_screenshot.png)
-### 4.I do Data Analysis and use well known statistical techniques.
+- 4.I do Data Analysis and use well known statistical techniques.
 
 ## Requirements
 * spotipy
