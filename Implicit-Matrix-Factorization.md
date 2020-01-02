@@ -20,10 +20,10 @@ Matrix factorization is a common and effective way to implement a recommendation
 
 Using the data set of user-item pairings, one can create a matrix such that all rows represent different users, all columns represent different items, and each entry at location (i, j) in the matrix represents user i’s rating for item j.
 
-![Figure_1](https://github.com/San-B-09/Spotify-Recommendation-Engine/blob/master/images/1_NS47i4lrDJUC1P3B-cdRtA.png)
+![Figure_1](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/images/1_NS47i4lrDJUC1P3B-cdRtA.png)
 
 So, we know that we can decompose a matrix by finding two matrices that can be multiplied together to form our original matrix.
 When these two separate matrices are created, they each carry separate information about song title, items(songs), and the relationships between them. Namely, one of the matrices will store information that characterizes song title, while the other will store information about the charastics of songs. In fact, every row of the user (left) matrix is a vector of size k that quantitatively describes a single song, while every column of the item (right) matrix is a vector of size k that characterizes a single song parameters. The size of these vectors, k, is called the latent dimensionality (or embedding size), and is a hyperparameter that must be tuned in the matrix factorization model — a larger latent dimentionality will allow for the model to capture more complex relationships and store more information.
 
 The following figure (Figure 2) dipict the matrix factorisation in user-item form.
-![Figure 2](https://github.com/San-B-09/Spotify-Recommendation-Engine/blob/master/images/1_gNYLtTeeCOkpwJGeOaWhjg.png)
+![Figure 2](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/images/1_gNYLtTeeCOkpwJGeOaWhjg.png)
