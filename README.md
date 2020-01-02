@@ -48,3 +48,4 @@
 
 ## KWoC contributors
 [@sibasmarak](http://github.com/sibasmarak) - [#15](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/15)
+[@San-B-09](https://github.com/San-B-09) - [#21](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/21)
