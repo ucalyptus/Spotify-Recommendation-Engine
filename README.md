@@ -5,7 +5,7 @@
 ***
 ## Music recommender system.
 
-[Important Announcement for KWoC contributors](ucalyptus.github.io/Spotify-Recommendation-Engine/KWoC Announcement.md)
+[Important Announcement for KWoC contributors](ucalyptus.github.io/Spotify-Recommendation-Engine/KWoC\ Announcement.md)
 
 - 1.This is my input data
 ![This is my playlist I feed it to ](images/playlist_screenshot.png)
