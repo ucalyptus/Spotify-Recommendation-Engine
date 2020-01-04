@@ -30,6 +30,8 @@
 
 
 ### Contributing
+Before you follow the mentioned steps, make sure you read our [Code of Conduct](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/CODE_OF_CONDUCT.md).
+
  1. Fork the repository.
 ![image](https://user-images.githubusercontent.com/41269164/70219309-9a3eca80-176a-11ea-8a4d-1bd701d07314.png)
  2. clone the repository.
