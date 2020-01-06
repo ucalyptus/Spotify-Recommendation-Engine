@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: spotipy
+Version: 2.4.4
+Summary: simple client for the Spotify Web API
+Home-page: http://spotipy.readthedocs.org/
+Author: @plamere
+Author-email: paul@echonest.com
+License: LICENSE.txt
+Platform: UNKNOWN
+Requires-Dist: requests (>=1.0)
+
+UNKNOWN
+
+
