@@ -1,6 +1,8 @@
 ## DIRECT ACCESS MENU :  
  --> [WATCH : Project Description Video](https://github.com/ucalyptus/Spotify-Recommendation-Engine#contributing)
+ 
  --> [JUMP TO : How to Start Contributing](https://github.com/ucalyptus/Spotify-Recommendation-Engine#contributing)
+ 
  --> [JUMP TO : Pre-requisites and Installation](https://github.com/ucalyptus/Spotify-Recommendation-Engine#requirements)
 
 ![](https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif)
