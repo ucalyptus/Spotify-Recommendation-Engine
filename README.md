@@ -1,3 +1,6 @@
+## DIRECT ACCESS LINKS :  
+[How to Start Contributing](https://github.com/ucalyptus/Spotify-Recommendation-Engine#contributing)
+
 ![](https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c08201afb65c40f4a67469d475831f63)](https://app.codacy.com/manual/ucalyptus/Spotify-Recommendation-Engine?utm_source=github.com&utm_medium=referral&utm_content=ucalyptus/Spotify-Recommendation-Engine&utm_campaign=Badge_Grade_Dashboard)
