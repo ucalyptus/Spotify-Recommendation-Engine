@@ -1,5 +1,7 @@
-## DIRECT ACCESS LINKS :  
-[How to Start Contributing](https://github.com/ucalyptus/Spotify-Recommendation-Engine#contributing)
+## DIRECT ACCESS MENU :  
+ --> [WATCH : Project Description Video](https://github.com/ucalyptus/Spotify-Recommendation-Engine#contributing)
+ --> [JUMP TO : How to Start Contributing](https://github.com/ucalyptus/Spotify-Recommendation-Engine#contributing)
+ --> [JUMP TO : Pre-requisites and Installation](https://github.com/ucalyptus/Spotify-Recommendation-Engine#requirements)
 
 ![](https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif)
 
@@ -7,9 +9,11 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Spotify-Recommendation-Engine/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ***
-[Check my video to understand this project better.](https://www.youtube.com/watch?v=otrW8brCAiU)
+## [CHECK OUT MY VIDEO TO UNDERSTAND THIS PROJECT BETTER.](https://www.youtube.com/watch?v=otrW8brCAiU)
+![image](https://user-images.githubusercontent.com/49288068/75175694-da558e00-5758-11ea-9335-99558b80940e.png)
 
-## Music recommender system.
+***
+## Music Recommender System.
 
 - 1.This is my input data
 ![This is my playlist I feed it to ](images/playlist_screenshot.png)
@@ -17,33 +21,31 @@
 ![After I use Spotify API to fetch tracks and arrange it into a df ](https://developer.spotify.com/assets/WebAPI_intro.png)
 - 3.This is the extracted dataframe
 ![Dataframe](images/dataframe_screenshot.png)
-- 4.I do Data Analysis and use well known statistical techniques.
+- 4. On this dataframe, we do Data Analysis and use well known statistical techniques.
 
 ## Requirements
-* spotipy
+* Install spotipy
 ```bash
  pip install spotipy
 ```
-## Voila! ,we convert this into a simple data analytics problem.Thanks to this Python wrapper Spotipy
-
+## Voila! Upon following this simple step, we can convert this into a simple data analytics problem.
+## THANKS TO THIS EFFICIENT PYTHON WRAPPER SPOTIPY
 
 *[Read more about Spotify's recommendation algorithm](Implicit-Matrix-Factorization.md)*
 
 [Spotify Developer](https://beta.developer.spotify.com/documentation/web-api/) for more info  
 
-
-
 ### Contributing
-Before you follow the mentioned steps, make sure you read our [Code of Conduct](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/CODE_OF_CONDUCT.md).
+Before you have followed the mentioned steps, make sure you read our [Code of Conduct](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/CODE_OF_CONDUCT.md).
 
  1. Fork the repository.
 ![image](https://user-images.githubusercontent.com/41269164/70219309-9a3eca80-176a-11ea-8a4d-1bd701d07314.png)
  2. clone the repository.
 	`https://github.com/ucalyptus/Spotify-Recommendation-Engine.git`
- 3. create a different branch.
+ 3. Create a different branch.
 	`git checkout -b newbranch oldbranch`
  4. Do the needful changes to solve the issue.
- 5. commit the changes and open a pull request.
+ 5. Commit the changes and open a pull request.
 	`git commit -m "description about changes"`
 	`git push origin newbranch`
  6. Making a pull request
