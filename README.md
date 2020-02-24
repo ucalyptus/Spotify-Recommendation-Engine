@@ -1,5 +1,5 @@
 ## DIRECT ACCESS MENU :  
- --> [WATCH : Project Description Video](https://github.com/ucalyptus/Spotify-Recommendation-Engine#contributing)
+ --> [WATCH : Project Description Video](https://www.youtube.com/watch?v=otrW8brCAiU)
  
  --> [JUMP TO : How to Start Contributing](https://github.com/ucalyptus/Spotify-Recommendation-Engine#contributing)
  
