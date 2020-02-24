@@ -4,9 +4,9 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Spotify-Recommendation-Engine/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ***
-## Music recommender system.
-
 [Check my video to understand this project better.](https://www.youtube.com/watch?v=otrW8brCAiU)
+
+## Music recommender system.
 
 - 1.This is my input data
 ![This is my playlist I feed it to ](images/playlist_screenshot.png)
