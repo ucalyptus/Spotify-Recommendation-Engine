@@ -8,6 +8,8 @@
 
 [Notice for all GirlScript Participants](https://ucalyptus.github.io/Spotify-Recommendation-Engine/GirlScript)
 
+[Link to Airtable](https://airtable.com/invite/l?inviteId=invYlgWtL001UpYE0&inviteToken=b930dca34625379ef91468f366329a692e890bcf716dea14dd510aaebc5af5b1)
+
 ## Music recommender system.
 
 - 1.This is my input data
