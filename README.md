@@ -6,6 +6,8 @@
 ***
 [Check my video to understand this project better.](https://www.youtube.com/watch?v=otrW8brCAiU)
 
+[Notice for all GirlScript Participants](https://ucalyptus.github.io/Spotify-Recommendation-Engine/GirlScript)
+
 ## Music recommender system.
 
 - 1.This is my input data
