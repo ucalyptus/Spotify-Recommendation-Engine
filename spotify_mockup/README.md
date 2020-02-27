@@ -1,6 +1,7 @@
 # spotify_mockup_main
 
-A new Flutter application.
+
+A new Flutter application spotify clone
 
 ## Getting Started
 
