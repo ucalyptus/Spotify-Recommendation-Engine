@@ -1,13 +1,39 @@
 import 'package:flutter/material.dart';
+import 'package:spotify_mockup/modal_class/artist.dart';
+import 'package:spotify_mockup/widgets/vertical_artist.dart';
 
 class LibraryTab extends StatelessWidget {
+  final List<Artist> following = [
+    Artist(
+        imageSrc: "assets/hailee.jpg",
+        title: 'Hailee Steinfeld',
+        circular: true),
+    Artist(
+        imageSrc: "assets/stoney.jpg",
+        title: 'Stoney(deluxe)',
+        circular: false),
+    Artist(
+        imageSrc: "assets/this_is_queen.jpg",
+        title: 'This is Queen',
+        circular: false),
+    Artist(
+        imageSrc: "assets/pink_floyd.jpg", title: 'Pink Floyd', circular: true),
+    Artist(
+        imageSrc: "assets/queen_best_of.jpg",
+        title: 'Queen : Best of',
+        circular: false),
+    Artist(
+        imageSrc: "assets/this_is_post_malone.jpg",
+        title: 'This is Post Malone',
+        circular: false),
+  ];
   @override
   Widget build(BuildContext context) {
     return Container(
         color: Theme.of(context).accentColor,
         child: Padding(
-          padding: const EdgeInsets.only(top: 24),
-          child: Container(child: tabBarControllerHome(context)),
+          padding: const EdgeInsets.only(top: 0),
+          child: tabBarControllerHome(context),
         ));
   }
 
@@ -15,27 +41,24 @@ class LibraryTab extends StatelessWidget {
     return DefaultTabController(
         length: 3,
         child: Scaffold(
-          appBar: PreferredSize(
-            preferredSize: Size.fromHeight(56.0),
-            child: Material(
-              color: Theme.of(context).accentColor,
-              child: TabBar(
-                tabs: [
-                  Tab(
-                    text: "Playlists",
-                  ),
-                  Tab(
-                    text: "Artists",
-                  ),
-                  Tab(
-                    text: "Albums",
-                  ),
-                ],
-                labelColor: Colors.white,
-                unselectedLabelColor: Colors.grey,
-                indicatorSize: (TabBarIndicatorSize.label),
-                indicatorColor: Colors.green,
-              ),
+          appBar: AppBar(
+            bottom: TabBar(
+              isScrollable: false,
+              tabs: [
+                Tab(
+                  text: "Playlists",
+                ),
+                Tab(
+                  text: "Artists",
+                ),
+                Tab(
+                  text: "Albums",
+                ),
+              ],
+              labelColor: Colors.white,
+              unselectedLabelColor: Colors.grey,
+              indicatorSize: (TabBarIndicatorSize.label),
+              indicatorColor: Colors.green,
             ),
           ),
           body: TabBarView(children: [
@@ -52,24 +75,15 @@ class LibraryTab extends StatelessWidget {
             ),
             Container(
               child: SingleChildScrollView(
-                child: Column(
+                child: Stack(
                   children: <Widget>[
                     SizedBox(
-                        width: 100,
-                        height: 100,
-                        child: Icon(
-                          Icons.person,
-                          color: Colors.white,
-                          size: 75,
-                        )),
-                    SizedBox(
-                        width: 100,
-                        height: 100,
-                        child: Icon(
-                          Icons.person,
-                          color: Colors.white,
-                          size: 75,
-                        )),
+                      child: VArtistList(
+                        artists: following,
+                        onPressed: () {},
+                      ),
+                      height: MediaQuery.of(context).size.height,
+                    ),
                   ],
                 ),
               ),

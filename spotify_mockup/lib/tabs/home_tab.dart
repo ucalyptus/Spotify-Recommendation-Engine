@@ -102,7 +102,7 @@ class HomeTabState extends State<HomeTab> {
                     ),
                   ),
                   SizedBox(
-                    child: ArtistList(
+                    child: HArtistList(
                       artists: recentlyPlayed,
                       onPressed: widget.onPressed,
                     ),
@@ -122,7 +122,7 @@ class HomeTabState extends State<HomeTab> {
                     ),
                   ),
                   SizedBox(
-                    child: ArtistList(
+                    child: HArtistList(
                       artists: heavyRotation,
                       onPressed: widget.onPressed,
                     ),
@@ -142,7 +142,7 @@ class HomeTabState extends State<HomeTab> {
                     ),
                   ),
                   SizedBox(
-                    child: ArtistList(
+                    child: HArtistList(
                       artists: madeForYou,
                       onPressed: widget.onPressed,
                     ),
