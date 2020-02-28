@@ -6,8 +6,8 @@ class LibraryTab extends StatelessWidget {
     return Container(
         color: Theme.of(context).accentColor,
         child: Padding(
-          padding: const EdgeInsets.only(top: 24.0),
-          child: tabBarControllerHome(context),
+          padding: const EdgeInsets.only(top: 24),
+          child: Container(child: tabBarControllerHome(context)),
         ));
   }
 
@@ -41,35 +41,49 @@ class LibraryTab extends StatelessWidget {
           body: TabBarView(children: [
             Container(
               child: SizedBox(
-                width: 100,
-                height: 100,
+                  width: 100,
+                  height: 100,
                   child: Icon(
-                Icons.library_music,
-                color: Colors.white,
-                size: 75,
-              )),
+                    Icons.library_music,
+                    color: Colors.white,
+                    size: 75,
+                  )),
+              color: Theme.of(context).accentColor,
+            ),
+            Container(
+              child: SingleChildScrollView(
+                child: Column(
+                  children: <Widget>[
+                    SizedBox(
+                        width: 100,
+                        height: 100,
+                        child: Icon(
+                          Icons.person,
+                          color: Colors.white,
+                          size: 75,
+                        )),
+                    SizedBox(
+                        width: 100,
+                        height: 100,
+                        child: Icon(
+                          Icons.person,
+                          color: Colors.white,
+                          size: 75,
+                        )),
+                  ],
+                ),
+              ),
               color: Theme.of(context).accentColor,
             ),
             Container(
               child: SizedBox(
-                width: 100,
-                height: 100,
+                  width: 100,
+                  height: 100,
                   child: Icon(
-                Icons.person,
-                color: Colors.white,
-                size: 75,
-              )),
-              color: Theme.of(context).accentColor,
-            ),
-            Container(
-              child: SizedBox(
-                width: 100,
-                height: 100,
-                  child: Icon(
-                Icons.album,
-                color: Colors.white,
-                size: 75,
-              )),
+                    Icons.album,
+                    color: Colors.white,
+                    size: 75,
+                  )),
               color: Theme.of(context).accentColor,
             ),
           ]),
