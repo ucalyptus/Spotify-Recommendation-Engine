@@ -11,7 +11,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _currentIndex = 0;
-  bool isPlaying = true;
+  bool isPlaying = false;
   var _value = 0.0;
   void handlePressed() {
     print('Start');
@@ -162,7 +162,7 @@ class _HomePageState extends State<HomePage> {
                                   : SettingsTab(),
                     ),
                     SizedBox(
-                      height: MediaQuery.of(context).size.height / 8,
+                      height: MediaQuery.of(context).size.height / 10,
                       width: MediaQuery.of(context).size.width,
                     )
                   ],
@@ -173,9 +173,9 @@ class _HomePageState extends State<HomePage> {
                         bottom: 0,
                         child: SizedBox(
                           width: MediaQuery.of(context).size.width,
-                          height: 100,
+                          height: MediaQuery.of(context).size.height / 10,
                           child: Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.symmetric(vertical: 1.0),
                             child: Container(
                               color: Theme.of(context).primaryColor,
                               child: Column(
@@ -183,31 +183,29 @@ class _HomePageState extends State<HomePage> {
                                   Expanded(
                                     child: Row(
                                       children: <Widget>[
-                                        // Expanded(
-                                        //   child: Container(
-                                        //     decoration: BoxDecoration(
-                                        //       shape: BoxShape.rectangle,
-                                        //       borderRadius:
-                                        //           BorderRadius.circular(8),
-                                        //       border: Border.all(
-                                        //           color: Colors.white,
-                                        //           width: 1),
-                                        //       image: DecorationImage(
-                                        //         fit: BoxFit.cover,
-                                        //         image: AssetImage(
-                                        //             'assets/bohemian.jpg'),
-                                        //       ),
-                                        //     ),
-                                        //   ),
-                                        //   flex: 1,
-                                        // ),
+                                        Expanded(
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              shape: BoxShape.rectangle,
+                                              borderRadius:
+                                                  BorderRadius.circular(2),
+                                              image: DecorationImage(
+                                                fit: BoxFit.contain,
+                                                image: AssetImage(
+                                                    'assets/bohemian.jpg'),
+                                              ),
+                                            ),
+                                          ),
+                                          flex: 1,
+                                        ),
                                         Expanded(
                                           child: Padding(
                                             padding: const EdgeInsets.all(8.0),
                                             child: Container(
                                               child: Column(
                                                 mainAxisAlignment:
-                                                    MainAxisAlignment.start,
+                                                    MainAxisAlignment
+                                                        .spaceEvenly,
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
                                                 children: <Widget>[
@@ -248,16 +246,16 @@ class _HomePageState extends State<HomePage> {
                                       ],
                                     ),
                                   ),
-                                  Slider(
-                                    value: _value,
-                                    onChanged: (value) {
-                                      setState(() {
-                                        _value = value;
-                                      });
-                                    },
-                                    activeColor: Colors.white,
-                                    inactiveColor: Colors.grey,
-                                  ),
+//                                  Slider(
+//                                    value: _value,
+//                                    onChanged: (value) {
+//                                      setState(() {
+//                                        _value = value;
+//                                      });
+//                                    },
+//                                    activeColor: Colors.white,
+//                                    inactiveColor: Colors.grey,
+//                                  ),
                                 ],
                               ),
                             ),

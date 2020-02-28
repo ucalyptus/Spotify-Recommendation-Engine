@@ -50,7 +50,12 @@ class SongPlayerState extends State<SongPlayer>
             children: <Widget>[
               AppBar(
                 backgroundColor: Colors.transparent,
-                title: Text('Playing'),
+                title: Text(
+                  'Playing',
+                  style: TextStyle(
+                    fontSize: 14,
+                  ),
+                ),
                 centerTitle: true,
                 leading: IconButton(
                   icon: Icon(Icons.keyboard_arrow_down),
@@ -64,7 +69,17 @@ class SongPlayerState extends State<SongPlayer>
                 ],
               ),
               Expanded(
-                child: Container(),
+                child: Container(
+                  width: MediaQuery.of(context).size.width / 2,
+                  height: MediaQuery.of(context).size.width / 2,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.rectangle,
+                    image: DecorationImage(
+                      fit: BoxFit.cover,
+                      image: AssetImage('assets/bohemian.jpg'),
+                    ),
+                  ),
+                ),
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
@@ -114,7 +129,7 @@ class SongPlayerState extends State<SongPlayer>
                       onPressed: () {},
                     ),
                     IconButton(
-                      iconSize: 50,
+                      iconSize: 70,
                       icon: Icon(
                           isPlaying
                               ? Icons.pause_circle_filled
@@ -122,11 +137,7 @@ class SongPlayerState extends State<SongPlayer>
                           color: Colors.white),
                       onPressed: () {
                         setState(() {
-                          if (isPlaying) {
-                            isPlaying = false;
-                          } else {
-                            isPlaying = true;
-                          }
+                          isPlaying = !isPlaying;
                         });
                       },
                     ),
