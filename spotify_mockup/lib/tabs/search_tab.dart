@@ -1,7 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SearchTab extends StatelessWidget {
-  final List<String> topGenres = ['Rock', 'Pop', 'Hip-Hop', 'Indie'];
+  final List<String> topGenres = ['Bollywood', 'Gaming', 'Hip-Hop', 'Metal'];
   final List<String> browseAll = [
     'Podcasts',
     'New Releases',
@@ -29,7 +30,7 @@ class SearchTab extends StatelessWidget {
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
           return <Widget>[
             SliverAppBar(
-              expandedHeight: 200.0,
+              expandedHeight: MediaQuery.of(context).size.height / 5,
               floating: false,
               pinned: false,
               flexibleSpace: FlexibleSpaceBar(
@@ -37,12 +38,14 @@ class SearchTab extends StatelessWidget {
                   title: Text("Search",
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 18.0,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30.0,
                       )),
                   background: Container(
                     decoration: new BoxDecoration(
                       gradient: new LinearGradient(
                         colors: [
+                          Colors.blueGrey,
                           Theme.of(context).primaryColor,
                           Theme.of(context).accentColor,
                         ],
@@ -57,7 +60,7 @@ class SearchTab extends StatelessWidget {
         body: Container(
           color: Theme.of(context).accentColor,
           child: Padding(
-            padding: const EdgeInsets.only(top: 16.0),
+            padding: const EdgeInsets.all(8.0),
             child: Column(
               children: <Widget>[
                 Row(
@@ -66,7 +69,7 @@ class SearchTab extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Container(
-                          height: 50,
+                          height: MediaQuery.of(context).size.height / 18,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(8),
                             color: Colors.white,
@@ -77,9 +80,12 @@ class SearchTab extends StatelessWidget {
                               Padding(
                                 padding:
                                     EdgeInsets.fromLTRB(8.0, 0.0, 8.0, 0.0),
-                                child: Icon(Icons.search),
+                                child: Icon(
+                                  Icons.search,
+                                  color: Colors.grey,
+                                ),
                               ),
-                              Text('Artists,Songs or Podcasts',
+                              Text('Artists, songs or podcasts',
                                   style: TextStyle(
                                       color: Colors.black,
                                       fontSize: 16.0,
@@ -91,7 +97,7 @@ class SearchTab extends StatelessWidget {
                     ),
                     IconButton(
                       icon: Icon(
-                        Icons.keyboard_voice,
+                        Icons.mic,
                         color: Colors.white,
                       ),
                       onPressed: () {},
@@ -105,7 +111,7 @@ class SearchTab extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Padding(
-                          padding: const EdgeInsets.only(left: 8.0),
+                          padding: const EdgeInsets.only(left: 8.0, top: 8.0),
                           child: Text(
                             'Your top genres',
                             style: TextStyle(
@@ -119,7 +125,7 @@ class SearchTab extends StatelessWidget {
                           physics: BouncingScrollPhysics(),
                           crossAxisCount: 2,
                           childAspectRatio:
-                              (MediaQuery.of(context).size.width / (2 * 100)),
+                              (MediaQuery.of(context).size.width / (250)),
                           children: List.generate(4, (index) {
                             return Padding(
                               padding: const EdgeInsets.all(8.0),
@@ -140,7 +146,7 @@ class SearchTab extends StatelessWidget {
                                       ),
                                   child: Padding(
                                     padding:
-                                        const EdgeInsets.fromLTRB(16, 16, 0, 0),
+                                        const EdgeInsets.fromLTRB(8, 16, 0, 0),
                                     child: Text(
                                       topGenres[index],
                                       style: TextStyle(
@@ -153,7 +159,7 @@ class SearchTab extends StatelessWidget {
                           }),
                         ),
                         Padding(
-                          padding: const EdgeInsets.only(left: 8.0),
+                          padding: const EdgeInsets.only(left: 8.0, top: 8.0),
                           child: Text(
                             'Browse all',
                             style: TextStyle(
@@ -167,7 +173,7 @@ class SearchTab extends StatelessWidget {
                           physics: BouncingScrollPhysics(),
                           crossAxisCount: 2,
                           childAspectRatio:
-                              (MediaQuery.of(context).size.width / (2 * 100)),
+                              (MediaQuery.of(context).size.width / 250),
                           children: List.generate(browseAll.length, (index) {
                             return Padding(
                               padding: const EdgeInsets.all(8.0),
@@ -188,7 +194,7 @@ class SearchTab extends StatelessWidget {
                                       ),
                                   child: Padding(
                                     padding:
-                                        const EdgeInsets.fromLTRB(16, 16, 0, 0),
+                                        const EdgeInsets.fromLTRB(8, 16, 0, 0),
                                     child: Text(
                                       browseAll[index],
                                       style: TextStyle(
