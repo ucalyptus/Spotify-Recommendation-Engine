@@ -35,7 +35,9 @@ class VArtistListState extends State<VArtistList> {
                       width: 80.0,
                       height: 80.0,
                       decoration: BoxDecoration(
-                        shape: BoxShape.circle,
+                        shape: widget.artists[index].circular
+                            ? BoxShape.circle
+                            : BoxShape.rectangle,
                         image: DecorationImage(
                           fit: BoxFit.fill,
                           image: AssetImage(widget.artists[index].imageSrc),

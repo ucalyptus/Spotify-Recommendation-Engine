@@ -28,6 +28,7 @@ flutter:
     - assets/discover.jpg
     - assets/time_capsule.jpg
     - assets/bohemian.jpg
+    - assets/placeholder_add.png
 
   # fonts:
   #   - family: Schyler

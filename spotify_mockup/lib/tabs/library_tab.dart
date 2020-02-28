@@ -3,29 +3,38 @@ import 'package:spotify_mockup/modal_class/artist.dart';
 import 'package:spotify_mockup/widgets/vertical_artist.dart';
 
 class LibraryTab extends StatelessWidget {
+  final List<Artist> playlists = [
+    Artist(
+        imageSrc: "assets/placeholder_add.png",
+        title: 'Create playlist',
+        circular: true),
+    Artist(
+        imageSrc: "assets/favourite.jpg",
+        title: 'Liked Songs',
+        circular: false),
+  ];
+
   final List<Artist> following = [
     Artist(
         imageSrc: "assets/hailee.jpg",
         title: 'Hailee Steinfeld',
         circular: true),
     Artist(
-        imageSrc: "assets/stoney.jpg",
-        title: 'Stoney(deluxe)',
-        circular: false),
+        imageSrc: "assets/stoney.jpg", title: 'Stoney(deluxe)', circular: true),
     Artist(
         imageSrc: "assets/this_is_queen.jpg",
         title: 'This is Queen',
-        circular: false),
+        circular: true),
     Artist(
         imageSrc: "assets/pink_floyd.jpg", title: 'Pink Floyd', circular: true),
     Artist(
         imageSrc: "assets/queen_best_of.jpg",
         title: 'Queen : Best of',
-        circular: false),
+        circular: true),
     Artist(
         imageSrc: "assets/this_is_post_malone.jpg",
         title: 'This is Post Malone',
-        circular: false),
+        circular: true),
   ];
   @override
   Widget build(BuildContext context) {
@@ -63,14 +72,19 @@ class LibraryTab extends StatelessWidget {
           ),
           body: TabBarView(children: [
             Container(
-              child: SizedBox(
-                  width: 100,
-                  height: 100,
-                  child: Icon(
-                    Icons.library_music,
-                    color: Colors.white,
-                    size: 75,
-                  )),
+              child: SingleChildScrollView(
+                child: Stack(
+                  children: <Widget>[
+                    SizedBox(
+                      child: VArtistList(
+                        artists: playlists,
+                        onPressed: () {},
+                      ),
+                      height: MediaQuery.of(context).size.height,
+                    ),
+                  ],
+                ),
+              ),
               color: Theme.of(context).accentColor,
             ),
             Container(
@@ -90,15 +104,14 @@ class LibraryTab extends StatelessWidget {
               color: Theme.of(context).accentColor,
             ),
             Container(
-              child: SizedBox(
-                  width: 100,
-                  height: 100,
-                  child: Icon(
-                    Icons.album,
-                    color: Colors.white,
-                    size: 75,
-                  )),
               color: Theme.of(context).accentColor,
+              child: Center(
+                child: Text('Your albums will appear here',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 24)),
+              ),
             ),
           ]),
         ));
