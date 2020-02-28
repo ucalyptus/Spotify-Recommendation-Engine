@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'mainpage.dart';
+import 'home.dart';
 import 'search.dart';
 import 'library.dart';
+import 'settings.dart';
 import 'package:spotify/spotify_io.dart';
 
 void main() => runApp(MyApp());
@@ -28,13 +29,16 @@ class MyHomePage extends StatefulWidget {
 Widget show(int index) {
   switch (index) {
     case 0:
-      return MainPage();
+      return Home();
       break;
     case 1:
       return SearchScreen();
       break;
     case 2:
       return Library();
+      break;
+    case 3:
+      return Settings();
       break;
   }
 }
@@ -73,6 +77,10 @@ class _MyHomePageState extends State<MyHomePage> {
               new BottomNavigationBarItem(
                 icon: Icon(Icons.library_music),
                 title: Text('Your Library'),
+              ),
+              new BottomNavigationBarItem(
+                icon: Icon(Icons.settings),
+                title: Text('Settings'),
               ),
             ]),
       ),

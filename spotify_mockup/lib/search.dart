@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SearchScreen extends StatelessWidget {
@@ -41,9 +42,10 @@ class SearchScreen extends StatelessWidget {
                     color: Colors.white,
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: <Widget>[
                         Padding(
-                          padding: EdgeInsets.only(left: 40),
+                          padding: EdgeInsets.only(left: 20),
                         ),
                         Icon(
                           Icons.search,
@@ -53,26 +55,26 @@ class SearchScreen extends StatelessWidget {
                           padding: EdgeInsets.all(5),
                         ),
                         Text(
-                          'Artists, ',
+                          'Artists, songs or podcasts',
                           style: TextStyle(
                               color: Colors.black,
                               fontSize: 20.0,
                               fontFamily: 'SpotifyFont'),
                         ),
-                        Text(
-                          'songs or',
-                          style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 20.0,
-                              fontFamily: 'SpotifyFont'),
-                        ),
-                        Text(
-                          ' podcasts',
-                          style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 20.0,
-                              fontFamily: 'SpotifyFont'),
-                        )
+//                        Text(
+//                          'songs or',
+//                          style: TextStyle(
+//                              color: Colors.black,
+//                              fontSize: 20.0,
+//                              fontFamily: 'SpotifyFont'),
+//                        ),
+//                        Text(
+//                          ' podcasts',
+//                          style: TextStyle(
+//                              color: Colors.black,
+//                              fontSize: 20.0,
+//                              fontFamily: 'SpotifyFont'),
+//                        ),
                       ],
                     ),
                   ),
