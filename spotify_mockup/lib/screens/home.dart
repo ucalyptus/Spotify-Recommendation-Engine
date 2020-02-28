@@ -3,6 +3,7 @@ import 'package:spotify_mockup/tabs/home_tab.dart';
 import 'package:spotify_mockup/tabs/library_tab.dart';
 import 'package:spotify_mockup/tabs/settings_tab.dart';
 import 'package:spotify_mockup/tabs/search_tab.dart';
+import 'package:spotify_mockup/screens/song_playing.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -20,124 +21,124 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
-  Widget songPlaying() {
-    return Scaffold(
-      body: Container(
-        width: double.infinity,
-        height: double.infinity,
-        decoration: BoxDecoration(
-          shape: BoxShape.rectangle,
-          image: DecorationImage(
-            fit: BoxFit.cover,
-            image: AssetImage('assets/bohemian.jpg'),
-          ),
-        ),
-        child: Container(
-          child: Column(
-            children: <Widget>[
-              AppBar(
-                backgroundColor: Colors.transparent,
-                title: Text('Playing'),
-                centerTitle: true,
-                leading: IconButton(
-                  icon: Icon(Icons.keyboard_arrow_down),
-                  onPressed: () {
-                    setState(() {
-                      isPlaying = false;
-                    });
-                  },
-                ),
-                actions: <Widget>[
-                  IconButton(
-                    icon: Icon(Icons.more_vert),
-                    onPressed: () {},
-                  )
-                ],
-              ),
-              Expanded(
-                child: Container(),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  'Bohemian Rhapsody - Remastered',
-                  style: TextStyle(color: Colors.white, fontSize: 20),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  'Queen',
-                  style: TextStyle(color: Colors.grey, fontSize: 18),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Slider(
-                  value: _value,
-                  onChanged: (value) {
-                    //print(value);
-                    setState(() {
-                      _value = value;
-                    });
-                  },
-                  activeColor: Colors.white,
-                  inactiveColor: Colors.grey,
-                  // valueColor: AlwaysStoppedAnimation(Color(0xff828A8A)),
-                  // backgroundColor: Color(0xff666666),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: <Widget>[
-                    IconButton(
-                      iconSize: 30,
-                      icon: Icon(Icons.favorite_border, color: Colors.white),
-                      onPressed: () {},
-                    ),
-                    IconButton(
-                      iconSize: 30,
-                      icon: Icon(Icons.skip_previous, color: Colors.white),
-                      onPressed: () {},
-                    ),
-                    IconButton(
-                      iconSize: 50,
-                      icon: Icon(
-                          isPlaying
-                              ? Icons.pause_circle_filled
-                              : Icons.play_circle_filled,
-                          color: Colors.white),
-                      onPressed: () {
-                        setState(() {
-                          if (isPlaying) {
-                            isPlaying = false;
-                          } else {
-                            isPlaying = true;
-                          }
-                        });
-                      },
-                    ),
-                    IconButton(
-                      iconSize: 30,
-                      icon: Icon(Icons.skip_next, color: Colors.white),
-                      onPressed: () {},
-                    ),
-                    IconButton(
-                      iconSize: 30,
-                      icon: Icon(Icons.clear, color: Colors.white),
-                      onPressed: () {},
-                    ),
-                  ],
-                ),
-              )
-            ],
-          ),
-        ),
-      ),
-    );
-  }
+//  Widget songPlaying() {
+//    return Scaffold(
+//      body: Container(
+//        width: double.infinity,
+//        height: double.infinity,
+//        decoration: BoxDecoration(
+//          shape: BoxShape.rectangle,
+//          image: DecorationImage(
+//            fit: BoxFit.cover,
+//            image: AssetImage('assets/bohemian.jpg'),
+//          ),
+//        ),
+//        child: Container(
+//          child: Column(
+//            children: <Widget>[
+//              AppBar(
+//                backgroundColor: Colors.transparent,
+//                title: Text('Playing'),
+//                centerTitle: true,
+//                leading: IconButton(
+//                  icon: Icon(Icons.keyboard_arrow_down),
+//                  onPressed: () {
+//                    setState(() {
+//                      isPlaying = false;
+//                    });
+//                  },
+//                ),
+//                actions: <Widget>[
+//                  IconButton(
+//                    icon: Icon(Icons.more_vert),
+//                    onPressed: () {},
+//                  )
+//                ],
+//              ),
+//              Expanded(
+//                child: Container(),
+//              ),
+//              Padding(
+//                padding: const EdgeInsets.all(8.0),
+//                child: Text(
+//                  'Bohemian Rhapsody - Remastered',
+//                  style: TextStyle(color: Colors.white, fontSize: 20),
+//                ),
+//              ),
+//              Padding(
+//                padding: const EdgeInsets.all(8.0),
+//                child: Text(
+//                  'Queen',
+//                  style: TextStyle(color: Colors.grey, fontSize: 18),
+//                ),
+//              ),
+//              Padding(
+//                padding: const EdgeInsets.all(8.0),
+//                child: Slider(
+//                  value: _value,
+//                  onChanged: (value) {
+//                    //print(value);
+//                    setState(() {
+//                      _value = value;
+//                    });
+//                  },
+//                  activeColor: Colors.white,
+//                  inactiveColor: Colors.grey,
+//                  // valueColor: AlwaysStoppedAnimation(Color(0xff828A8A)),
+//                  // backgroundColor: Color(0xff666666),
+//                ),
+//              ),
+//              Padding(
+//                padding: const EdgeInsets.all(8.0),
+//                child: Row(
+//                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+//                  children: <Widget>[
+//                    IconButton(
+//                      iconSize: 30,
+//                      icon: Icon(Icons.favorite_border, color: Colors.white),
+//                      onPressed: () {},
+//                    ),
+//                    IconButton(
+//                      iconSize: 30,
+//                      icon: Icon(Icons.skip_previous, color: Colors.white),
+//                      onPressed: () {},
+//                    ),
+//                    IconButton(
+//                      iconSize: 50,
+//                      icon: Icon(
+//                          isPlaying
+//                              ? Icons.pause_circle_filled
+//                              : Icons.play_circle_filled,
+//                          color: Colors.white),
+//                      onPressed: () {
+//                        setState(() {
+//                          if (isPlaying) {
+//                            isPlaying = false;
+//                          } else {
+//                            isPlaying = true;
+//                          }
+//                        });
+//                      },
+//                    ),
+//                    IconButton(
+//                      iconSize: 30,
+//                      icon: Icon(Icons.skip_next, color: Colors.white),
+//                      onPressed: () {},
+//                    ),
+//                    IconButton(
+//                      iconSize: 30,
+//                      icon: Icon(Icons.clear, color: Colors.white),
+//                      onPressed: () {},
+//                    ),
+//                  ],
+//                ),
+//              )
+//            ],
+//          ),
+//        ),
+//      ),
+//    );
+//  }
 
   @override
   Widget build(BuildContext context) {
@@ -300,7 +301,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ),
-        isPlaying ? songPlaying() : Container()
+        isPlaying ? SongPlayer() : Container()
       ],
     );
   }

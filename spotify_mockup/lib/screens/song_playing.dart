@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 class SongPlayer extends StatefulWidget {
@@ -22,7 +24,7 @@ class SongPlayerState extends State<SongPlayer>
 
   void startTimer() {
     controller = AnimationController(
-        duration: const Duration(seconds: 120), vsync: this);
+        duration: const Duration(seconds: 180), vsync: this);
     animation = Tween(begin: 0.0, end: 1.0).animate(controller)
       ..addListener(() {
         setState(() {
@@ -38,40 +40,59 @@ class SongPlayerState extends State<SongPlayer>
       body: Container(
         width: double.infinity,
         height: double.infinity,
-        decoration: BoxDecoration(
-          shape: BoxShape.rectangle,
-          image: DecorationImage(
-            fit: BoxFit.cover,
-            image: AssetImage('assets/bohemian.jpg'),
+//        decoration: BoxDecoration(
+//          shape: BoxShape.rectangle,
+//          image: DecorationImage(
+//            fit: BoxFit.cover,
+//            image: AssetImage('assets/bohemian.jpg'),
+//          ),
+//        ),
+        decoration: new BoxDecoration(
+          gradient: new LinearGradient(
+            colors: [
+              Colors.grey,
+              Theme.of(context).primaryColor,
+              Theme.of(context).accentColor,
+            ],
+            begin: FractionalOffset.topLeft,
+            end: FractionalOffset.bottomRight,
           ),
         ),
+
         child: Container(
           child: Column(
             children: <Widget>[
               AppBar(
                 backgroundColor: Colors.transparent,
                 title: Text(
-                  'Playing',
+                  'Playing from library',
                   style: TextStyle(
-                    fontSize: 14,
+                    fontSize: 16,
                   ),
                 ),
                 centerTitle: true,
                 leading: IconButton(
-                  icon: Icon(Icons.keyboard_arrow_down),
+                  icon: Icon(
+                    Icons.keyboard_arrow_down,
+                    color: Colors.white,
+                  ),
                   onPressed: widget.onPressed,
                 ),
                 actions: <Widget>[
                   IconButton(
-                    icon: Icon(Icons.more_vert),
+                    icon: Icon(
+                      Icons.more_vert,
+                      color: Colors.white,
+                    ),
                     onPressed: () {},
                   )
                 ],
               ),
-              Expanded(
+              Padding(
+                padding: const EdgeInsets.all(30.0),
                 child: Container(
-                  width: MediaQuery.of(context).size.width / 2,
-                  height: MediaQuery.of(context).size.width / 2,
+                  width: MediaQuery.of(context).size.width * 0.84,
+                  height: MediaQuery.of(context).size.width * 0.84,
                   decoration: BoxDecoration(
                     shape: BoxShape.rectangle,
                     image: DecorationImage(
@@ -81,18 +102,24 @@ class SongPlayerState extends State<SongPlayer>
                   ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  'Bohemian Rhapsody - Remastered',
-                  style: TextStyle(color: Colors.white, fontSize: 20),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 30.0),
+                  child: Text(
+                    'Bohemian Rhapsody - Remastered',
+                    style: TextStyle(color: Colors.white, fontSize: 20),
+                  ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  'Queen',
-                  style: TextStyle(color: Colors.grey, fontSize: 18),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 30.0),
+                  child: Text(
+                    'Queen',
+                    style: TextStyle(color: Colors.grey, fontSize: 18),
+                  ),
                 ),
               ),
               Padding(
@@ -101,14 +128,12 @@ class SongPlayerState extends State<SongPlayer>
                   //value: animation == null ? 0 : animation.value,
                   value: _value,
                   onChanged: (value) {
-                    //print(value);
                     setState(() {
                       _value = value;
                     });
                   },
                   activeColor: Colors.white,
                   inactiveColor: Colors.grey,
-
                   // valueColor: AlwaysStoppedAnimation(Color(0xff828A8A)),
                   // backgroundColor: Color(0xff666666),
                 ),
@@ -129,7 +154,7 @@ class SongPlayerState extends State<SongPlayer>
                       onPressed: () {},
                     ),
                     IconButton(
-                      iconSize: 70,
+                      iconSize: 75,
                       icon: Icon(
                           isPlaying
                               ? Icons.pause_circle_filled
