@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
 //          shape: BoxShape.rectangle,
 //          image: DecorationImage(
 //            fit: BoxFit.cover,
-//            image: AssetImage('assets/bohemian.jpg'),
+//            image: AssetImage('assets/close.png'),
 //          ),
 //        ),
 //        child: Container(
@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
 //              Padding(
 //                padding: const EdgeInsets.all(8.0),
 //                child: Text(
-//                  'Bohemian Rhapsody - Remastered',
+//                  'Close (Brooks Remix)',
 //                  style: TextStyle(color: Colors.white, fontSize: 20),
 //                ),
 //              ),
@@ -193,7 +193,7 @@ class _HomePageState extends State<HomePage> {
                                               image: DecorationImage(
                                                 fit: BoxFit.contain,
                                                 image: AssetImage(
-                                                    'assets/bohemian.jpg'),
+                                                    'assets/close.png'),
                                               ),
                                             ),
                                           ),
@@ -211,13 +211,13 @@ class _HomePageState extends State<HomePage> {
                                                     CrossAxisAlignment.start,
                                                 children: <Widget>[
                                                   Text(
-                                                    "Bohemian Rhapsody",
+                                                    "Close (Brooks Remix)",
                                                     style: TextStyle(
                                                         color: Colors.white,
                                                         fontSize: 18),
                                                   ),
                                                   Text(
-                                                    "Queen",
+                                                    "NCS",
                                                     style: TextStyle(
                                                         color: Colors.grey,
                                                         fontSize: 16),

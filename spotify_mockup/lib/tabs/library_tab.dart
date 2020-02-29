@@ -16,20 +16,19 @@ class LibraryTab extends StatelessWidget {
 
   final List<Artist> following = [
     Artist(
-        imageSrc: "assets/hailee.jpg",
-        title: 'Hailee Steinfeld',
-        circular: true),
+        imageSrc: "assets/arijit.png", title: 'Arijit Singh', circular: true),
     Artist(
-        imageSrc: "assets/stoney.jpg", title: 'Stoney(deluxe)', circular: true),
+        imageSrc: "assets/this_is_alan_walker.png",
+        title: 'This is Alan Walker',
+        circular: true),
     Artist(
         imageSrc: "assets/this_is_queen.jpg",
         title: 'This is Queen',
         circular: true),
+    Artist(imageSrc: "assets/slander.png", title: 'Slander', circular: true),
     Artist(
-        imageSrc: "assets/pink_floyd.jpg", title: 'Pink Floyd', circular: true),
-    Artist(
-        imageSrc: "assets/queen_best_of.jpg",
-        title: 'Queen : Best of',
+        imageSrc: "assets/this_is_illenium.png",
+        title: 'This is Illenium',
         circular: true),
     Artist(
         imageSrc: "assets/this_is_post_malone.jpg",

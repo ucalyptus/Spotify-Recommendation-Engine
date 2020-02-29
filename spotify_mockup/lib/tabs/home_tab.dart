@@ -19,11 +19,10 @@ class HomeTabState extends State<HomeTab> {
         imageSrc: "assets/favourite.jpg",
         title: 'Favourite Songs',
         circular: false),
+    Artist(imageSrc: "assets/slander.png", title: 'Slander', circular: true),
     Artist(
-        imageSrc: "assets/pink_floyd.jpg", title: 'Pink Floyd', circular: true),
-    Artist(
-        imageSrc: "assets/queen_best_of.jpg",
-        title: 'Queen : Best of',
+        imageSrc: "assets/this_is_illenium.png",
+        title: 'This is Illenium',
         circular: false),
     Artist(
         imageSrc: "assets/this_is_post_malone.jpg",
@@ -33,20 +32,18 @@ class HomeTabState extends State<HomeTab> {
 
   final List<Artist> heavyRotation = [
     Artist(
-        imageSrc: "assets/hailee.jpg",
-        title: 'Hailee Steinfeld',
-        circular: true),
+        imageSrc: "assets/arijit.png", title: 'Arijit Singh', circular: true),
     Artist(
-        imageSrc: "assets/stoney.jpg",
-        title: 'Stoney(deluxe)',
+        imageSrc: "assets/this_is_alan_walker.png",
+        title: 'This is Alan Walker',
         circular: false),
     Artist(
         imageSrc: "assets/this_is_queen.jpg",
         title: 'This is Queen',
         circular: false),
     Artist(
-        imageSrc: "assets/queen_best_of.jpg",
-        title: 'Queen : Best of',
+        imageSrc: "assets/this_is_illenium.png",
+        title: 'This is Illenium',
         circular: false),
     Artist(
         imageSrc: "assets/this_is_post_malone.jpg",
@@ -55,14 +52,8 @@ class HomeTabState extends State<HomeTab> {
   ];
 
   final List<Artist> madeForYou = [
-    Artist(
-        imageSrc: "assets/discover.jpg",
-        title: 'Discover Weekly',
-        circular: false),
-    Artist(
-        imageSrc: "assets/time_capsule.jpg",
-        title: 'Time Capsule',
-        circular: false),
+    Artist(imageSrc: "assets/dm1.png", title: 'Daily Mix 1', circular: false),
+    Artist(imageSrc: "assets/dm2.png", title: 'Daily Mix 2', circular: false),
   ];
   void handleTap() {
     print('tap registered');

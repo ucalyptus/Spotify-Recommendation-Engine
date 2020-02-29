@@ -44,7 +44,7 @@ class SongPlayerState extends State<SongPlayer>
 //          shape: BoxShape.rectangle,
 //          image: DecorationImage(
 //            fit: BoxFit.cover,
-//            image: AssetImage('assets/bohemian.jpg'),
+//            image: AssetImage('assets/close.png'),
 //          ),
 //        ),
         decoration: new BoxDecoration(
@@ -97,7 +97,7 @@ class SongPlayerState extends State<SongPlayer>
                     shape: BoxShape.rectangle,
                     image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage('assets/bohemian.jpg'),
+                      image: AssetImage('assets/close.png'),
                     ),
                   ),
                 ),
@@ -107,7 +107,7 @@ class SongPlayerState extends State<SongPlayer>
                 child: Padding(
                   padding: const EdgeInsets.only(left: 30.0),
                   child: Text(
-                    'Bohemian Rhapsody - Remastered',
+                    'Close (Brooks Remix)',
                     style: TextStyle(color: Colors.white, fontSize: 20),
                   ),
                 ),
@@ -117,7 +117,7 @@ class SongPlayerState extends State<SongPlayer>
                 child: Padding(
                   padding: const EdgeInsets.only(left: 30.0),
                   child: Text(
-                    'Queen',
+                    'NCS',
                     style: TextStyle(color: Colors.grey, fontSize: 18),
                   ),
                 ),
