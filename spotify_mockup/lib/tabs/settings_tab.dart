@@ -1,83 +1,75 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SettingsTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: NestedScrollView(
-        headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
-          return <Widget>[
-            SliverAppBar(
-//              expandedHeight: MediaQuery.of(context).size.height / 10,
-              floating: true,
-              pinned: true,
-              flexibleSpace: FlexibleSpaceBar(
-                  centerTitle: true,
-                  title: Text("Settings",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18.0,
-                      )),
-                  background: Container(
-                    color: Theme.of(context).primaryColor,
-                  )),
+    return Scaffold(
+      appBar: AppBar(
+          backgroundColor: Theme.of(context).primaryColor,
+//          leading: Icon(
+//            Icons.arrow_back,
+//            color: Colors.white,
+//          ),
+          title: Center(
+            child: Text(
+              "Settings",
+              style: TextStyle(color: Colors.white),
             ),
-          ];
-        },
-        body: Container(
-          color: Theme.of(context).accentColor,
-          child: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Column(
-              children: <Widget>[
-                Row(
-                  children: <Widget>[
-                    SizedBox(
-                      child: Icon(
-                        Icons.account_circle,
-                        size: 80,
-                        color: Colors.white,
-                      ),
-                    ),
-                    Expanded(
-                      child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: <Widget>[
-                              Text(
-                                "Rishabh Raizada",
-                                style: TextStyle(
-                                    color: Colors.white, fontSize: 20),
-                              ),
-                              Text(
-                                "View Profile",
-                                style: TextStyle(color: Colors.grey),
-                              ),
-                            ],
-                          )),
-                    ),
-                    IconButton(
-                      icon: Icon(
-                        Icons.arrow_forward_ios,
-                        color: Colors.white,
-                        size: 10,
-                      ),
-                      onPressed: () {},
-                    )
-                  ],
+          )),
+      body: Container(
+        color: Theme.of(context).accentColor,
+        child: ListView(
+          children: <Widget>[
+            ListTile(
+              contentPadding: EdgeInsets.all(8.0),
+              leading: Icon(
+                Icons.account_circle,
+                size: 80,
+                color: Colors.white,
+              ),
+              title: Text(
+                "Rishabh ",
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold),
+              ),
+              subtitle: Text(
+                "View Profile ",
+                style: TextStyle(color: Colors.grey, fontSize: 15),
+              ),
+              trailing: Icon(
+                Icons.arrow_forward_ios,
+                color: Colors.white,
+                size: 10,
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            ListTile(
+              contentPadding: EdgeInsets.all(22.0),
+              title: Text(
+                "Gapless ",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
                 ),
-                Container(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[],
-                  ),
-                )
-              ],
+              ),
+              subtitle: Text(
+                "Allows gapless playback ",
+                style: TextStyle(color: Colors.grey, fontSize: 15),
+              ),
+              trailing: Switch.adaptive(
+                value: true,
+                onChanged: null,
+                inactiveThumbColor: Colors.green,
+                activeTrackColor: Colors.greenAccent,
+                inactiveTrackColor: Colors.green[900],
+              ),
             ),
-          ),
+          ],
         ),
       ),
     );
