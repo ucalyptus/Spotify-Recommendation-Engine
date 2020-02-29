@@ -4,10 +4,7 @@ A flutter application clone of Spotify.
 
 # Screenshots
 
-![Home](https://www.liquidgalaxy.eu/2019/12/student-selection-proces-for-google.html)
-![Search](https://files.slack.com/files-pri/TRN1H1V43-FUP09R45A/screenshot_20200229-183541.jpg)
-![Library](https://files.slack.com/files-pri/TRN1H1V43-FUDAK1RNV/screenshot_20200229-183554.jpg)
-![Settings](https://files.slack.com/files-pri/TRN1H1V43-FUDAK1XBK/screenshot_20200229-183605.jpg)
+<img src="https://github.com/Rishabh510/Spotify-Recommendation-Engine/blob/spotify_mockup/spotify_mockup/images/home.jpg" width="250" height = "500"> <img src="https://github.com/Rishabh510/Spotify-Recommendation-Engine/blob/spotify_mockup/spotify_mockup/images/search.jpg"  width="250" height = "500"> <img src="https://github.com/Rishabh510/Spotify-Recommendation-Engine/blob/spotify_mockup/spotify_mockup/images/library.jpg"  width="250" height = "500"> <img src="https://github.com/Rishabh510/Spotify-Recommendation-Engine/blob/spotify_mockup/spotify_mockup/images/settings.jpg"  width="250" height = "500">
 
 # Steps to clone
 1. Fork repository
