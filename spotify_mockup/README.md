@@ -1,17 +1,21 @@
-# spotify_mockup_main
+# spotify_mockup
 
+A flutter application clone of Spotify.
 
-A new Flutter application spotify clone
+# Screenshots
 
-## Getting Started
+![Home](https://www.liquidgalaxy.eu/2019/12/student-selection-proces-for-google.html)
+![Search](https://files.slack.com/files-pri/TRN1H1V43-FUP09R45A/screenshot_20200229-183541.jpg)
+![Library](https://files.slack.com/files-pri/TRN1H1V43-FUDAK1RNV/screenshot_20200229-183554.jpg)
+![Settings](https://files.slack.com/files-pri/TRN1H1V43-FUDAK1XBK/screenshot_20200229-183605.jpg)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Steps to clone
+1. Fork repository
+2. Clone repository
+3. Run the following commands
+```
+pub get
+```
+```
+flutter run
+```
