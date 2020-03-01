@@ -50,17 +50,15 @@ songs = tracks["items"]
 track_ids = []
 track_names = []
 
-
-for i in range(0, len(songs)):
-    if songs[i]["track"]["id"] is not None:
-        track_ids.append(songs[i]["track"]["id"])
-        track_names.append(songs[i]["track"]["name"])
+for song in songs:
+    if song["track"]["id"] is not None:
+        track_ids.append(song["track"]["id"])
+        track_names.append(song["track"]["name"])
 
 features = []
 
-
-for i in range(0, len(track_ids)):
-    audio_features = sp.audio_features(track_ids[i])
+for t_id in track_ids:
+    audio_features = sp.audio_features(t_id)
     for track in audio_features:
         features.append(track)
 
@@ -181,8 +179,8 @@ for i in rec_tracks:
 
 rec_features = []
 
-for i in range(0, len(rec_track_ids)):
-    rec_audio_features = sp.audio_features(rec_track_ids[i])
+for ids in rec_track_ids:
+    rec_audio_features = sp.audio_features(ids)
     for track in rec_audio_features:
         rec_features.append(track)
 
