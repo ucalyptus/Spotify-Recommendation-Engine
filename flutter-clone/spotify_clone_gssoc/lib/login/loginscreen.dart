@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:spotify_clone_gssoc/home/home.dart';
 
 class login extends StatefulWidget {
   @override
@@ -32,7 +33,9 @@ class _stateLogin extends State<login>{
                 Expanded(
                   child:Center(
                   child: SizedBox(
-                    child: RaisedButton(shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),onPressed: () {},
+                    child: RaisedButton(shape:RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),onPressed: () {
+                      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => home()));
+                    },
                     color:Colors.lightGreen,
                     child:Container(margin: EdgeInsets.all(10),child: Text('Get Started', style: TextStyle(color:Colors.white, fontWeight: FontWeight.bold, fontSize: 24)),)),
                   ),
