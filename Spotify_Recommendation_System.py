@@ -1,10 +1,8 @@
 import spotipy
 import spotipy.util as util
 import pandas as pd
-import numpy as np
 from sklearn import decomposition
 from sklearn.preprocessing import StandardScaler
-import matplotlib.pyplot as plt
 import seaborn as sns
 
 from spotipy.oauth2 import SpotifyClientCredentials
@@ -18,7 +16,7 @@ from sklearn.tree import DecisionTreeClassifier
 sns.set(style="white")
 
 cid = "ffbef2bcb4b84e80b3a0039a2906cb01"
-secret = "6c57daa1247f4abe96f38635d38869a0"
+sec_key = "6c57daa1247f4abe96f38635d38869a0"
 username = "francocasadei"
 redirect_uri = (
     "https://developer.spotify.com/dashboard/"
@@ -28,12 +26,12 @@ redirect_uri = (
 scope = "user-library-read playlist-modify-public playlist-read-private"
 
 client_credentials_manager = SpotifyClientCredentials(
-    client_id=cid, client_secret=secret
+    client_id=cid, client_secret=sec_key
 )
 
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-token = util.prompt_for_user_token(username, scope, cid, secret, redirect_uri)
+token = util.prompt_for_user_token(username, scope, cid, sec_key, redirect_uri)
 
 if token:
     sp = spotipy.Spotify(auth=token)
@@ -118,17 +116,6 @@ y_train = playlist_df["ratings"]
 X_scaled = StandardScaler().fit_transform(X_train)
 
 pca = decomposition.PCA().fit(X_scaled)
-
-
-plt.figure(figsize=(10, 7))
-plt.plot(np.cumsum(pca.explained_variance_ratio_), color="k", lw=2)
-plt.xlabel("Number of components")
-plt.ylabel("Total explained variance")
-plt.xlim(0, 12)
-plt.yticks(np.arange(0, 1.1, 0.1))
-plt.axvline(8, c="b")
-plt.axhline(0.95, c="r")
-plt.show()
 
 # Fit your dataset to the optimal pca
 pca = decomposition.PCA(n_components=8)
