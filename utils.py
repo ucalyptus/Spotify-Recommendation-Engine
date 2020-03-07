@@ -1,19 +1,36 @@
-
-import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy.sparse import csr_matrix, hstack
 
-import sympy
-from sympy import Matrix, init_printing
-from scipy.sparse.linalg import svds, eigs
-
-import sklearn
+from sklearn import decomposition
+from sklearn.preprocessing import StandardScaler
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.model_selection import StratifiedKFold, GridSearchCV
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics.pairwise import cosine_distances
 from sklearn.metrics import pairwise_distances
+
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
+import spotipy.util as util
+
+# %matplotlib inline
+from IPython import get_ipython
+# %config InlineBackend.figure_format = 'retina'
+from IPython.display import set_matplotlib_formats
+# %matplotlib notebook
+from IPython import get_ipython
+
+import sympy
+from sympy import Matrix, init_printing
+from scipy.sparse.linalg import svds, eigs
 
 from time import time
 
@@ -22,30 +39,7 @@ from surprise import SVD
 from surprise import Dataset
 from surprise.model_selection import cross_validate
 
-# %matplotlib notebook
-from IPython import get_ipython
-get_ipython().run_line_magic('matplotlib', 'notebook')
-
-init_printing()
-
-data = pd.read_csv("top50.csv", encoding="ISO-8859-1")
-data.index = [data["Track.Name"]]
-
-data = data[
-    [
-        "Beats.Per.Minute",
-        "Energy",
-        "Danceability",
-        "Loudness..dB..",
-        "Liveness",
-        "Valence.",
-        "Length.",
-        "Acousticness..",
-        "Speechiness.",
-        "Popularity",
-    ]
-]
-
+import recommender
 
 def index_to_instance(df, index=None):
     if index:
@@ -87,13 +81,3 @@ class RecSysContentBased:
 
     def test(self, testset):
         pass
-
-
-model = RecSysContentBased()
-model.fit(data)
-
-print(
-    "Top 5 Songs closest to {0} are: \n{1}".format(
-        index_to_instance(data, 10), pd.Series(model.evaluate(10)[1:6])
-    )
-)
