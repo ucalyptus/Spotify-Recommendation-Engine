@@ -15,7 +15,7 @@
 - 1.This is my input data
 ![This is my playlist I feed it to ](images/playlist_screenshot.png)
 - 2.Spotify has inhouse functions to  extract track details.
-![After I use Spotify API to fetch tracks and arrange it into a df ](https://developer.spotify.com/assets/WebAPI_intro.png)
+![After I use Spotify API to fetch tracks and arrange it into a df ](images/web-api.png)
 - 3.This is the extracted dataframe
 ![Dataframe](images/dataframe_screenshot.png)
 - 4.I do Data Analysis and use well known statistical techniques.
