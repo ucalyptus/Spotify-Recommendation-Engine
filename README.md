@@ -32,7 +32,8 @@
 
 [Spotify Developer](https://beta.developer.spotify.com/documentation/web-api/) for more info  
 
-
+### Regarding already assigned issues
+Feel free to still comment down below those issues.This project supports many contributors and thus only that Pull Request will be merged which would be the best out of all proposed PRs by the participants for a certain issue/feature.
 
 ### Contributing
 Before you follow the mentioned steps, make sure you read our [Code of Conduct](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/CODE_OF_CONDUCT.md).
@@ -52,7 +53,9 @@ Before you follow the mentioned steps, make sure you read our [Code of Conduct](
 	* click on `Compare and Pull Request`
 ![image](https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png)
 
-
+## GirlScript 2020 contributors so far
+[@Samriddhi25](https://github.com/Samriddhi25) - [#43](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/43)
+[@algokun](https://github.com/algokun) - [#41](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/41)
 ## KWoC contributors
 [@sibasmarak](http://github.com/sibasmarak) - [#15](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/15)
 [@San-B-09](https://github.com/San-B-09) - [#21](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/21)
