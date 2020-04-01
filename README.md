@@ -68,8 +68,9 @@ Then add a title and description to your pull request that explains your preciou
 ![image](https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png)
 
 ## GirlScript 2020 contributors so far
-[@Samriddhi25](https://github.com/Samriddhi25) - [#43](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/43)
-[@algokun](https://github.com/algokun) - [#41](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/41)
+- [@Samriddhi25](https://github.com/Samriddhi25) - [#43](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/43)
+- [@algokun](https://github.com/algokun) - [#41](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/41)
+- [@mySTRiouscoder](https://github.com/mySTRiouscoder) - [#48](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/48),[#49](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/49),[#50](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/50)
 ## KWoC contributors
-[@sibasmarak](http://github.com/sibasmarak) - [#15](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/15)
-[@San-B-09](https://github.com/San-B-09) - [#21](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/21)
+- [@sibasmarak](http://github.com/sibasmarak) - [#15](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/15)
+- [@San-B-09](https://github.com/San-B-09) - [#21](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/21)
