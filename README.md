@@ -1,4 +1,4 @@
-![](https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif)
+<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif" width=700>
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c08201afb65c40f4a67469d475831f63)](https://app.codacy.com/manual/ucalyptus/Spotify-Recommendation-Engine?utm_source=github.com&utm_medium=referral&utm_content=ucalyptus/Spotify-Recommendation-Engine&utm_campaign=Badge_Grade_Dashboard)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Spotify-Recommendation-Engine/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -13,11 +13,11 @@
 ## Music recommender system.
 
 - 1.This is my input data
-![This is my playlist I feed it to ](images/playlist_screenshot.png)
+<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/images/playlist_screenshot.png" width=700>
 - 2.Spotify has inhouse functions to  extract track details.
-![After I use Spotify API to fetch tracks and arrange it into a df ](https://developer.spotify.com/assets/WebAPI_intro.png)
+<img src="https://developer.spotify.com/assets/WebAPI_intro.png" width=700>
 - 3.This is the extracted dataframe
-![Dataframe](images/dataframe_screenshot.png)
+<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/images/dataframe_screenshot.png" width=700>
 - 4.I do Data Analysis and use well known statistical techniques.
 
 ## Requirements
@@ -40,7 +40,8 @@ Before you follow the mentioned steps, make sure you read our [Code of Conduct](
 
 ## Steps to follow :scroll:
 ### 1. Fork it :fork_and_knife:
-![image](https://user-images.githubusercontent.com/41269164/70219309-9a3eca80-176a-11ea-8a4d-1bd701d07314.png)
+<img src="https://user-images.githubusercontent.com/41269164/70219309-9a3eca80-176a-11ea-8a4d-1bd701d07314.png" width=300>
+
 ### 2. Clone it :busts_in_silhouette:
 	`https://github.com/ucalyptus/Spotify-Recommendation-Engine.git`
  ### 3. Create a new branch :bangbang:
@@ -63,9 +64,24 @@ $ git push -u origin Folder_Name
 Finally, go to your repository in browser and click on `compare and pull requests`.
 Then add a title and description to your pull request that explains your precious effort.
 
-![image](https://user-images.githubusercontent.com/41269164/70219707-47194780-176b-11ea-96c2-d0c401ddb1e0.png)
-	* click on `Compare and Pull Request`
-![image](https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png)
+<img src="https://user-images.githubusercontent.com/41269164/70219707-47194780-176b-11ea-96c2-d0c401ddb1e0.png" width=600>
+		
+click on `Compare and Pull Request`
+		
+<img src="https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png" width=600>
+
+## 👨 Project Admin
+
+- Sayantan Das <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/ucalyptus) [<img src="https://img.icons8.com/color/48/000000/linkedin-2.png" display = "inline-block">](https://www.linkedin.com/in/ucalyptus)</p>
+
+## 👬  Mentors
+
+- Kashish Madan  <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/kashishmadan) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://www.linkedin.com/in/kashishmadan)</p>
+- Kshitij Gupta    <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/AgentFabulous) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://in.linkedin.com/in/kshitij-gupta-0211)</p> 
+- Abhilash Gunasegaran  <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/AbhilashG97) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://www.linkedin.com/in/abhilash-g-55160a139/)</p>
+- Lucky Suman    <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/lucky-suman)</p>
+
+Feel free to ask your queries!! 🙌
 
 ## 👨 Project Admin
 
