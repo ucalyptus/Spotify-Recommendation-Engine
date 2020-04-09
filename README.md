@@ -47,7 +47,10 @@ Before you follow the mentioned steps, make sure you read our [Code of Conduct](
  ### 3. Create a new branch :bangbang:
 	`git checkout -b newbranch oldbranch`
 ### 4. Do the needful changes to solve the issue.
-### 5. commit the changes.
+
+### 5. Add the files one at a time
+        `git add path-to-your-file`
+### 6. Commit the changes.
 	Type in a message relevant for the code reveiwer using
 
        ```sh
