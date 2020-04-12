@@ -87,9 +87,41 @@ click on `Compare and Pull Request`
 Feel free to ask your queries!! 🙌
 
 ## GirlScript 2020 contributors so far
-- [@Samriddhi25](https://github.com/Samriddhi25) - [#43](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/43)
-- [@algokun](https://github.com/algokun) - [#41](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/41)
-- [@mySTRiouscoder](https://github.com/mySTRiouscoder) - [#48](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/48),[#49](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/49),[#50](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/50)
+- [@aashimgarg](https://github.com/aashimgarg)
+	- Easy
+		- [#56](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/56)
+		- [#57](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/57)
+		- [#58](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/58)
+		- [#59](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/59)
+		- [#61](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/61)
+		- [#62](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/62)
+	- Medium
+		- [#55](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/55)
+		- [#60](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/60)
+- [@roshankcjha](https://github.com/roshankcjha)
+	- Beginner
+		- [#54](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/54)
+- [@Mansi145](https://github.com/Mansi145)
+	- Easy
+		- [#53](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/53)
+- [@Akansha2202](https://github.com/Akansha2202)
+	- Beginner
+		- [#51](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/51)
+- [@SubhradeepSS](https://github.com/SubhradeepSS)
+	- Hard
+		- [#46](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/46)
+- [@Samriddhi25](https://github.com/Samriddhi25)
+	- Easy
+		- [#43](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/43)
+- [@algokun](https://github.com/algokun)
+	- Beginner
+		- [#41](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/41)
+- [@mySTRiouscoder](https://github.com/mySTRiouscoder)
+	- Easy
+		- [#48](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/48)
+	- Medium
+		- [#49](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/49)
+		- [#50](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/50)
 ## KWoC contributors
 - [@sibasmarak](http://github.com/sibasmarak) - [#15](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/15)
 - [@San-B-09](https://github.com/San-B-09) - [#21](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/21)
