@@ -87,41 +87,20 @@ click on `Compare and Pull Request`
 Feel free to ask your queries!! 🙌
 
 ## GirlScript 2020 contributors so far
-- [@aashimgarg](https://github.com/aashimgarg)
-	- Easy
-		- [#56](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/56)
-		- [#57](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/57)
-		- [#58](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/58)
-		- [#59](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/59)
-		- [#61](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/61)
-		- [#62](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/62)
-	- Medium
-		- [#55](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/55)
-		- [#60](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/60)
-- [@roshankcjha](https://github.com/roshankcjha)
-	- Beginner
-		- [#54](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/54)
-- [@Mansi145](https://github.com/Mansi145)
-	- Easy
-		- [#53](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/53)
-- [@Akansha2202](https://github.com/Akansha2202)
-	- Beginner
-		- [#51](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/51)
-- [@SubhradeepSS](https://github.com/SubhradeepSS)
-	- Hard
-		- [#46](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/46)
-- [@Samriddhi25](https://github.com/Samriddhi25)
-	- Easy
-		- [#43](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/43)
-- [@algokun](https://github.com/algokun)
-	- Beginner
-		- [#41](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/41)
-- [@mySTRiouscoder](https://github.com/mySTRiouscoder)
-	- Easy
-		- [#48](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/48)
-	- Medium
-		- [#49](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/49)
-		- [#50](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/50)
+|                     Contributors                    	|                                                                       Beginner                                                                      	|                                                                         Easy                                                                        	|                                                                        Medium                                                                        	|                                                                       Hard                                                                       	|
+|:----------------------------------------------------:	|:---------------------------------------------------------------------------------------------------------------------------------------------------:	|:---------------------------------------------------------------------------------------------------------------------------------------------------:	|:----------------------------------------------------------------------------------------------------------------------------------------------------:	|:------------------------------------------------------------------------------------------------------------------------------------------------:	|
+|    [@chttrjeankr](https://github.com/chttrjeankr)    	|                                                                          -                                                                          	|                                                                          -                                                                          	|  [YES](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pulls?q=is%3Apr+is%3Amerged+author%3Achttrjeankr+label%3Agssoc20+label%3Amedium+)  	|                                                                         -                                                                        	|
+|      [@BALaka-18](https://github.com/BALaka-18)      	|                                                                          -                                                                          	|                                                                          -                                                                          	|   [YES](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pulls?q=is%3Apr+is%3Amerged+author%3ABALaka-18+label%3Agssoc20+label%3Amedium+)   	|                                                                         -                                                                        	|
+|     [@aashimgarg](https://github.com/aashimgarg)     	|                                                                          -                                                                          	|    [YES](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pulls?q=is%3Apr+is%3Amerged+author%3Aaashimgarg+label%3Agssoc20+label%3Aeasy)   	|   [YES](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pulls?q=is%3Apr+is%3Amerged+author%3Aaashimgarg+label%3Agssoc20+label%3Amedium)   	|                                                                         -                                                                        	|
+|    [@roshankcjha](https://github.com/roshankcjha)    	| [YES](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pulls?q=is%3Apr+is%3Amerged+author%3Aroshankcjha+label%3Agssoc20+label%3Abeginner) 	|                                                                          -                                                                          	|                                                                           -                                                                          	|                                                                         -                                                                        	|
+|       [@Mansi145](https://github.com/Mansi145)       	|                                                                          -                                                                          	|     [YES](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pulls?q=is%3Apr+is%3Amerged+author%3AMansi145+label%3Agssoc20+label%3Aeasy)    	|                                                                           -                                                                          	|                                                                         -                                                                        	|
+|    [@Akansha2202](https://github.com/Akansha2202)    	| [YES](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pulls?q=is%3Apr+is%3Amerged+author%3AAkansha2202+label%3Agssoc20+label%3Abeginner) 	|                                                                          -                                                                          	|                                                                           -                                                                          	|                                                                         -                                                                        	|
+| [@mySTRiouscoder](https://github.com/mySTRiouscoder) 	|                                                                          -                                                                          	| [YES](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pulls?q=is%3Apr+is%3Amerged+author%3AmySTRiouscoder+label%3Agssoc20+label%3Aeasy+) 	| [YES](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pulls?q=is%3Apr+is%3Amerged+author%3AmySTRiouscoder+label%3Agssoc20+label%3Amedium) 	|                                                                         -                                                                        	|
+|   [@SubhradeepSS](https://github.com/SubhradeepSS)   	|                                                                          -                                                                          	|                                                                          -                                                                          	|                                                                           -                                                                          	| [YES](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pulls?q=is%3Apr+is%3Amerged+author%3ASubhradeepSS+label%3Agssoc20+label%3Ahard) 	|
+|    [@Samriddhi25](https://github.com/Samriddhi25)    	|                                                                          -                                                                          	|   [YES](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pulls?q=is%3Apr+is%3Amerged+author%3ASamriddhi25+label%3Agssoc20+label%3Aeasy)   	|                                                                           -                                                                          	|                                                                         -                                                                        	|
+|        [@algokun](https://github.com/algokun)        	|   [YES](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pulls?q=is%3Apr+is%3Amerged+author%3Aalgokun+label%3Agssoc20+label%3Abeginner)   	|                                                                          -                                                                          	|                                                                           -                                                                          	|                                                                         -                                                                        	|
+
+
 ## KWoC contributors
 - [@sibasmarak](http://github.com/sibasmarak) - [#15](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/15)
 - [@San-B-09](https://github.com/San-B-09) - [#21](https://github.com/ucalyptus/Spotify-Recommendation-Engine/pull/21)
