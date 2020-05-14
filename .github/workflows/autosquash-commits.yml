@@ -37,3 +37,8 @@ jobs:
           # - a personal access token
           #   See https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line.
           github_token: ${{ secrets.AUTOSQUASH_TOKEN }}
+          name: GitHub App token
+          -uses: tibdex/github-app-token@v1.0.2
+          
+
+
