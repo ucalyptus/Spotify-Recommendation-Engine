@@ -1,4 +1,4 @@
-<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif" width=700>
+<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif" width=700 align="center">
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c08201afb65c40f4a67469d475831f63)](https://app.codacy.com/manual/ucalyptus/Spotify-Recommendation-Engine?utm_source=github.com&utm_medium=referral&utm_content=ucalyptus/Spotify-Recommendation-Engine&utm_campaign=Badge_Grade_Dashboard)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Spotify-Recommendation-Engine/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
