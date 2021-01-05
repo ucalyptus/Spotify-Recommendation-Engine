@@ -80,6 +80,7 @@ click on `Compare and Pull Request`
 ## 👬  Mentors
 
 - Kashish Madan  <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/kashishmadan) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://www.linkedin.com/in/kashishmadan)</p>
+- Akshat Surolia    <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/AsianZeus) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://www.linkedin.com/in/akshatsurolia)</p> 
 - Kshitij Gupta    <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/AgentFabulous) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://in.linkedin.com/in/kshitij-gupta-0211)</p> 
 - Abhilash Gunasegaran  <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/AbhilashG97) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://www.linkedin.com/in/abhilash-g-55160a139/)</p>
 - Lucky Suman    <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/lucky-suman)</p>
