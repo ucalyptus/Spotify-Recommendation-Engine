@@ -68,7 +68,7 @@ Before you follow the mentioned steps, make sure you read our [Code of Conduct](
 </details>
 
 <details>
-	<summary> <b> <h3> 6. Commit the changes. </h3> </b> </summary>
+	<summary> <b> 6. Commit the changes. </b> </summary>
 	Type in a message relevant for the code reveiwer using
 
        ```sh
@@ -80,7 +80,7 @@ Before you follow the mentioned steps, make sure you read our [Code of Conduct](
 </details>
 
 <details>
-	<summary> <b> <h3> 7. Making a pull request </h3> </b> </summary>
+	<summary> <b> 7. Making a pull request </b> </summary>
 	
 	```sh
 	# To push your work to your remote repository
