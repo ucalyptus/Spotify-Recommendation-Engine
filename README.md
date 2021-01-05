@@ -40,28 +40,28 @@ Before you follow the mentioned steps, make sure you read our [Code of Conduct](
 
 ## Steps to follow :scroll:
 <details>
-	<summary> <b> <h3> 1. Fork it :fork_and_knife: </h3> </b> </summary>
+	<summary> <b> 1. Fork it :fork_and_knife: </b> </summary>
 	<img src="https://user-images.githubusercontent.com/41269164/70219309-9a3eca80-176a-11ea-8a4d-1bd701d07314.png" width=300>
 </details>
 
 <details>
-	<summary> <b> <h3> 2. Clone it :busts_in_silhouette: </h3> </b> </summary>
-	`https://github.com/ucalyptus/Spotify-Recommendation-Engine.git`
+	<summary> <b> 2. Clone it :busts_in_silhouette: </b> </summary>
+	``` `https://github.com/ucalyptus/Spotify-Recommendation-Engine.git` ```
 </details>
 
 <details>
-	<summary> <b> <h3> 3. Create a new branch :bangbang: </h3> </b> </summary>
-	`git checkout -b newbranch oldbranch`
+	<summary> <b> 3. Create a new branch :bangbang: </b> </summary>
+	``` `git checkout -b newbranch oldbranch` ```
 </details>
 
 <details>
-	<summary> <b> <h3> 4. Do the needful changes to solve the issue. </h3> </b> </summary>
+	<summary> <b> 4. Do the needful changes to solve the issue. </b> </summary>
 	Edit or add or do any necessary change to code to solve the issue
 </details>
 
 <details>
-	<summary> <b> <h3> 5. Add the files one at a time </h3> </b> </summary>
-        `git add path-to-your-file`
+	<summary> <b> 5. Add the files one at a time </b> </summary>
+        ``` `git add path-to-your-file` ```
 </details>
 
 <details>
@@ -78,10 +78,11 @@ Before you follow the mentioned steps, make sure you read our [Code of Conduct](
 
 <details>
 	<summary> <b> <h3> 7. Making a pull request </h3> </b> </summary>
- ```sh
-# To push your work to your remote repository
-$ git push -u origin Folder_Name
-```
+	
+	```sh
+	# To push your work to your remote repository
+	$ git push -u origin Folder_Name
+	```
 Finally, go to your repository in browser and click on `compare and pull requests`.
 Then add a title and description to your pull request that explains your precious effort.
 
