@@ -35,6 +35,8 @@
 ### Regarding already assigned issues
 Feel free to still comment down below those issues.This project supports many contributors and thus only that Pull Request will be merged which would be the best out of all proposed PRs by the participants for a certain issue/feature.
 
+
+
 ### Contributing
 Before you follow the mentioned steps, make sure you read our [Code of Conduct](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/CODE_OF_CONDUCT.md).
 
@@ -96,6 +98,8 @@ click on `Compare and Pull Request`
 <img src="https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png" width=600>
 
 </details>
+
+
 
 ## 👨 Project Admin
 
