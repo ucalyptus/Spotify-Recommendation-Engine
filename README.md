@@ -47,17 +47,13 @@ Before you follow the mentioned steps, make sure you read our [Code of Conduct](
 <details>
 	<summary> <b> 2. Clone it :busts_in_silhouette: </b> </summary>
 	
-	```
 	`https://github.com/ucalyptus/Spotify-Recommendation-Engine.git`
-	```
 </details>
 
 <details>
 	<summary> <b> 3. Create a new branch :bangbang: </b> </summary>
 	
-	```
 	`git checkout -b newbranch oldbranch`
-	```
 </details>
 
 <details>
@@ -68,9 +64,7 @@ Before you follow the mentioned steps, make sure you read our [Code of Conduct](
 <details>
 	<summary> <b> 5. Add the files one at a time </b> </summary>
 	
-        ```
-	`git add path-to-your-file` 
-	```
+        `git add path-to-your-file` 
 </details>
 
 <details>
