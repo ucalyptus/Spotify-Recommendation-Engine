@@ -39,18 +39,33 @@ Feel free to still comment down below those issues.This project supports many co
 Before you follow the mentioned steps, make sure you read our [Code of Conduct](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/CODE_OF_CONDUCT.md).
 
 ## Steps to follow :scroll:
-### 1. Fork it :fork_and_knife:
-<img src="https://user-images.githubusercontent.com/41269164/70219309-9a3eca80-176a-11ea-8a4d-1bd701d07314.png" width=300>
+<details>
+	<summary> <b> <h3> 1. Fork it :fork_and_knife: </h3> </b> </summary>
+	<img src="https://user-images.githubusercontent.com/41269164/70219309-9a3eca80-176a-11ea-8a4d-1bd701d07314.png" width=300>
+</details>
 
-### 2. Clone it :busts_in_silhouette:
+<details>
+	<summary> <b> <h3> 2. Clone it :busts_in_silhouette: </h3> </b> </summary>
 	`https://github.com/ucalyptus/Spotify-Recommendation-Engine.git`
- ### 3. Create a new branch :bangbang:
-	`git checkout -b newbranch oldbranch`
-### 4. Do the needful changes to solve the issue.
+</details>
 
-### 5. Add the files one at a time
+<details>
+	<summary> <b> <h3> 3. Create a new branch :bangbang: </h3> </b> </summary>
+	`git checkout -b newbranch oldbranch`
+</details>
+
+<details>
+	<summary> <b> <h3> 4. Do the needful changes to solve the issue. </h3> </b> </summary>
+	Edit or add or do any necessary change to code to solve the issue
+</details>
+
+<details>
+	<summary> <b> <h3> 5. Add the files one at a time </h3> </b> </summary>
         `git add path-to-your-file`
-### 6. Commit the changes.
+</details>
+
+<details>
+	<summary> <b> <h3> 6. Commit the changes. </h3> </b> </summary>
 	Type in a message relevant for the code reveiwer using
 
        ```sh
@@ -59,7 +74,10 @@ Before you follow the mentioned steps, make sure you read our [Code of Conduct](
         ```
 	Now, Push your awesome work to your remote repository using
 	`git push origin newbranch`
- ### 6. Making a pull request
+</details>
+
+<details>
+	<summary> <b> <h3> 7. Making a pull request </h3> </b> </summary>
  ```sh
 # To push your work to your remote repository
 $ git push -u origin Folder_Name
@@ -72,6 +90,8 @@ Then add a title and description to your pull request that explains your preciou
 click on `Compare and Pull Request`
 		
 <img src="https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png" width=600>
+
+</details>
 
 ## 👨 Project Admin
 
