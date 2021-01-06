@@ -4,7 +4,11 @@
 </p>
 
 ## About the Project:
-- [Check my video to understand this project better.](https://www.youtube.com/watch?v=otrW8brCAiU)
+- Click on the below video to watch about the project
+
+<a href="https://youtu.be/otrW8brCAiU"><img src="https://img.youtube.com/vi/otrW8brCAiU/hqdefault.jpg" width=400/></a>
+
+
 ## Requirements
 * spotipy
 ```bash
