@@ -13,5 +13,6 @@
 
 # Contact me on the [SWOC slack](http://swoc-workspace.slack.com/) or engage in the [Discussions](https://github.com/ucalyptus/Spotify-Recommendation-Engine/discussions) for more questions.
 
+
+
 ### Contributing
-Check the [wiki](https://github.com/ucalyptus/Spotify-Recommendation-Engine/wiki/'How-to-Contribute'-for-Beginners).
