@@ -6,7 +6,7 @@
 ## About the Project:
 #### Check my video to understand this project better.
 
-[![Check my video to understand this project better.](images/Capture.PNG)](https://www.youtube.com/watch?v=otrW8brCAiU)
+[![Check my video to understand this project better.](images/Capture1.PNG)](https://www.youtube.com/watch?v=otrW8brCAiU)
 
 ## Requirements
 * spotipy
