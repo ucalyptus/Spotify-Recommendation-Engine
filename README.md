@@ -114,6 +114,21 @@ click on `Compare and Pull Request`
 - Lucky Suman    <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/lucky-suman)</p>
 
 Feel free to ask your queries!! 🙌
+<p>&nbsp;</p>
+
+## SWoC 2020-21 Contributors <a href="https://swoc.tech/index.html"><img src="https://swoc.tech/img/logo-2.png" width="50" height="25"/></a>
+<table>
+	<tr>
+		<th> Contributor </th>
+		<th> Beginner </th>
+		<th> Easy </th>
+		<th> Medium </th>
+		<th> Hard </th>
+	</tr>
+</table>
+
+<p>&nbsp;</p>
+
 
 ## GirlScript 2020 contributors
 |                     Contributors                    	|                                                                       Beginner                                                                      	|                                                                         Easy                                                                        	|                                                                        Medium                                                                        	|                                                                       Hard                                                                       	|
