@@ -4,6 +4,11 @@
 </p>
 
 ## About the Project:
+
+
+<iframe width="727" height="409" src="https://www.youtube.com/embed/otrW8brCAiU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 - [Check my video to understand this project better.](https://www.youtube.com/watch?v=otrW8brCAiU)
 ## Requirements
 * spotipy
