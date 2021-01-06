@@ -1,71 +1,54 @@
-<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif" width=700 align="center">
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c08201afb65c40f4a67469d475831f63)](https://app.codacy.com/manual/ucalyptus/Spotify-Recommendation-Engine?utm_source=github.com&utm_medium=referral&utm_content=ucalyptus/Spotify-Recommendation-Engine&utm_campaign=Badge_Grade_Dashboard)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Spotify-Recommendation-Engine/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif" width=400 align="center">
 
 ***
 [Check my video to understand this project better.](https://www.youtube.com/watch?v=otrW8brCAiU)
-
-[Notice for all GirlScript Participants](https://ucalyptus.github.io/Spotify-Recommendation-Engine/GirlScript)
-
-[Link to Airtable](https://airtable.com/invite/l?inviteId=invYlgWtL001UpYE0&inviteToken=b930dca34625379ef91468f366329a692e890bcf716dea14dd510aaebc5af5b1)
-
-## Music recommender system.
-
-- 1.This is my input data
-<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/images/playlist_screenshot.png" width=700>
-- 2.Spotify has inhouse functions to  extract track details.
-<img src="https://developer.spotify.com/assets/WebAPI_intro.png" width=700>
-- 3.This is the extracted dataframe
-<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/images/dataframe_screenshot.png" width=700>
-- 4.I do Data Analysis and use well known statistical techniques.
-
 ## Requirements
 * spotipy
 ```bash
  pip install spotipy
 ```
-## Voila! ,we convert this into a simple data analytics problem.Thanks to this Python wrapper Spotipy
-
-
-*[Read more about Spotify's recommendation algorithm](Implicit-Matrix-Factorization.md)*
-
 [Spotify Developer](https://beta.developer.spotify.com/documentation/web-api/) for more info  
 
-### Regarding already assigned issues
-Feel free to still comment down below those issues.This project supports many contributors and thus only that Pull Request will be merged which would be the best out of all proposed PRs by the participants for a certain issue/feature.
+## [Notebook](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/Spotify_Recommendation_System_.ipynb) | [Playlist created using the notebook](https://open.spotify.com/playlist/4D8p3hVYwgngTmf1FHol0Y)
+
+# Contact me on the [SWOC slack](http://swoc-workspace.slack.com/) or engage in the [Discussions](https://github.com/ucalyptus/Spotify-Recommendation-Engine/discussions) for more questions.
+
+
 
 ### Contributing
 Before you follow the mentioned steps, make sure you read our [Code of Conduct](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/CODE_OF_CONDUCT.md).
 
 ## Steps to follow :scroll:
 <details>
-	<summary> <b> <h3> 1. Fork it :fork_and_knife: </h3> </b> </summary>
+	<summary> <b> 1. Fork it :fork_and_knife: </b> </summary>
 	<img src="https://user-images.githubusercontent.com/41269164/70219309-9a3eca80-176a-11ea-8a4d-1bd701d07314.png" width=300>
 </details>
 
 <details>
-	<summary> <b> <h3> 2. Clone it :busts_in_silhouette: </h3> </b> </summary>
+	<summary> <b> 2. Clone it :busts_in_silhouette: </b> </summary>
+	
 	`https://github.com/ucalyptus/Spotify-Recommendation-Engine.git`
 </details>
 
 <details>
-	<summary> <b> <h3> 3. Create a new branch :bangbang: </h3> </b> </summary>
+	<summary> <b> 3. Create a new branch :bangbang: </b> </summary>
+	
 	`git checkout -b newbranch oldbranch`
 </details>
 
 <details>
-	<summary> <b> <h3> 4. Do the needful changes to solve the issue. </h3> </b> </summary>
+	<summary> <b> 4. Do the needful changes to solve the issue. </b> </summary>
 	Edit or add or do any necessary change to code to solve the issue
 </details>
 
 <details>
-	<summary> <b> <h3> 5. Add the files one at a time </h3> </b> </summary>
-        `git add path-to-your-file`
+	<summary> <b> 5. Add the files one at a time </b> </summary>
+	
+        `git add path-to-your-file` 
 </details>
 
 <details>
-	<summary> <b> <h3> 6. Commit the changes. </h3> </b> </summary>
+	<summary> <b> 6. Commit the changes. </b> </summary>
 	Type in a message relevant for the code reveiwer using
 
        ```sh
@@ -77,11 +60,12 @@ Before you follow the mentioned steps, make sure you read our [Code of Conduct](
 </details>
 
 <details>
-	<summary> <b> <h3> 7. Making a pull request </h3> </b> </summary>
- ```sh
-# To push your work to your remote repository
-$ git push -u origin Folder_Name
-```
+	<summary> <b> 7. Making a pull request </b> </summary>
+	
+	```sh
+	# To push your work to your remote repository
+	$ git push -u origin Folder_Name
+	```
 Finally, go to your repository in browser and click on `compare and pull requests`.
 Then add a title and description to your pull request that explains your precious effort.
 
@@ -93,19 +77,32 @@ click on `Compare and Pull Request`
 
 </details>
 
+
+
 ## 👨 Project Admin
 
 - Sayantan Das <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/ucalyptus) [<img src="https://img.icons8.com/color/48/000000/linkedin-2.png" display = "inline-block">](https://www.linkedin.com/in/ucalyptus)</p>
 
-## 👬  Mentors
+## 👬 SWOC Mentors
 
-- Kashish Madan  <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/kashishmadan) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://www.linkedin.com/in/kashishmadan)</p>
 - Akshat Surolia    <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/AsianZeus) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://www.linkedin.com/in/akshatsurolia)</p> 
-- Kshitij Gupta    <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/AgentFabulous) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://in.linkedin.com/in/kshitij-gupta-0211)</p> 
-- Abhilash Gunasegaran  <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/AbhilashG97) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://www.linkedin.com/in/abhilash-g-55160a139/)</p>
-- Lucky Suman    <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/lucky-suman)</p>
 
 Feel free to ask your queries!! 🙌
+<p>&nbsp;</p>
+
+## SWoC 2020-21 Contributors <a href="https://swoc.tech/index.html"><img src="https://swoc.tech/img/logo-2.png" width="50" height="25"/></a>
+<table>
+	<tr>
+		<th> Contributor </th>
+		<th> Beginner </th>
+		<th> Easy </th>
+		<th> Medium </th>
+		<th> Hard </th>
+	</tr>
+</table>
+
+<p>&nbsp;</p>
+
 
 ## GirlScript 2020 contributors
 |                     Contributors                    	|                                                                       Beginner                                                                      	|                                                                         Easy                                                                        	|                                                                        Medium                                                                        	|                                                                       Hard                                                                       	|
