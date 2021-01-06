@@ -1,39 +1,17 @@
-<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif" width=700 align="center">
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c08201afb65c40f4a67469d475831f63)](https://app.codacy.com/manual/ucalyptus/Spotify-Recommendation-Engine?utm_source=github.com&utm_medium=referral&utm_content=ucalyptus/Spotify-Recommendation-Engine&utm_campaign=Badge_Grade_Dashboard)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Spotify-Recommendation-Engine/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/spotify.gif" width=400 align="center">
 
 ***
 [Check my video to understand this project better.](https://www.youtube.com/watch?v=otrW8brCAiU)
-
-[Notice for all GirlScript Participants](https://ucalyptus.github.io/Spotify-Recommendation-Engine/GirlScript)
-
-[Link to Airtable](https://airtable.com/invite/l?inviteId=invYlgWtL001UpYE0&inviteToken=b930dca34625379ef91468f366329a692e890bcf716dea14dd510aaebc5af5b1)
-
-## Music recommender system.
-
-- 1.This is my input data
-<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/images/playlist_screenshot.png" width=700>
-- 2.Spotify has inhouse functions to  extract track details.
-<img src="https://developer.spotify.com/assets/WebAPI_intro.png" width=700>
-- 3.This is the extracted dataframe
-<img src="https://ucalyptus.github.io/Spotify-Recommendation-Engine/images/dataframe_screenshot.png" width=700>
-- 4.I do Data Analysis and use well known statistical techniques.
-
 ## Requirements
 * spotipy
 ```bash
  pip install spotipy
 ```
-## Voila! ,we convert this into a simple data analytics problem.Thanks to this Python wrapper Spotipy
-
-
-*[Read more about Spotify's recommendation algorithm](Implicit-Matrix-Factorization.md)*
-
 [Spotify Developer](https://beta.developer.spotify.com/documentation/web-api/) for more info  
 
-### Regarding already assigned issues
-Feel free to still comment down below those issues.This project supports many contributors and thus only that Pull Request will be merged which would be the best out of all proposed PRs by the participants for a certain issue/feature.
+## [Notebook](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/Spotify_Recommendation_System_.ipynb) | [Playlist created using the notebook](https://open.spotify.com/playlist/4D8p3hVYwgngTmf1FHol0Y)
+
+# Contact me on the [SWOC slack](http://swoc-workspace.slack.com/) or engage in the [Discussions](https://github.com/ucalyptus/Spotify-Recommendation-Engine/discussions) for more questions.
 
 
 
@@ -105,13 +83,9 @@ click on `Compare and Pull Request`
 
 - Sayantan Das <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/ucalyptus) [<img src="https://img.icons8.com/color/48/000000/linkedin-2.png" display = "inline-block">](https://www.linkedin.com/in/ucalyptus)</p>
 
-## 👬  Mentors
+## 👬 SWOC Mentors
 
-- Kashish Madan  <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/kashishmadan) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://www.linkedin.com/in/kashishmadan)</p>
 - Akshat Surolia    <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/AsianZeus) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://www.linkedin.com/in/akshatsurolia)</p> 
-- Kshitij Gupta    <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/AgentFabulous) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://in.linkedin.com/in/kshitij-gupta-0211)</p> 
-- Abhilash Gunasegaran  <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/AbhilashG97) [<img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"/>](https://www.linkedin.com/in/abhilash-g-55160a139/)</p>
-- Lucky Suman    <p>[<img src="https://img.icons8.com/windows/32/000000/github-2.png" display = "inline-block">](https://github.com/lucky-suman)</p>
 
 Feel free to ask your queries!! 🙌
 <p>&nbsp;</p>
