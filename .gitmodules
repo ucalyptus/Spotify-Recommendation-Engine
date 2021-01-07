@@ -3,4 +3,5 @@
 	url = https://github.com/Potential17/Flutter-app.git
 [submodule "Mockups"]
         path = Mockups
-	url = https://github.com/ucalyptus/Spotify-Recommendation-Engine.git@mockups
+	url = https://github.com/ucalyptus/Spotify-Recommendation-Engine.git
+	branch = mockups
