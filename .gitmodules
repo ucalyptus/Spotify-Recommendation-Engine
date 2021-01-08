@@ -1,7 +1,5 @@
-[submodule "Flutter-app"]
-	path = Flutter-app
-	url = https://github.com/Potential17/Flutter-app.git
 [submodule "Mockups"]
         path = Mockups
 	url = https://github.com/ucalyptus/Spotify-Recommendation-Engine.git
 	branch = mockups
+
