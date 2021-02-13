@@ -18,7 +18,7 @@
 ## Recommender System:
 ## [Notebook](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/Spotify_Recommendation_System_.ipynb) | [Playlist created using the notebook](https://open.spotify.com/playlist/4D8p3hVYwgngTmf1FHol0Y)
 
-# Contact me on the [SWOC slack](http://swoc-workspace.slack.com/) or engage in the [Discussions](https://github.com/ucalyptus/Spotify-Recommendation-Engine/discussions) for more questions.
+# Engage in the [Discussions](https://github.com/ucalyptus/Spotify-Recommendation-Engine/discussions) for more questions.
 
 ### Contributing
 Please see the [Code of Conduct](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/CODE_OF_CONDUCT.md) before contributing.
