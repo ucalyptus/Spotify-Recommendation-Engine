@@ -23,3 +23,27 @@
 ### Contributing
 Please see the [Code of Conduct](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/CODE_OF_CONDUCT.md) before contributing.
 Check the [Wiki](https://github.com/ucalyptus/Spotify-Recommendation-Engine/wiki) for instructions.
+
+##Spotify-Recommendation-Engine is a part of these open source programs❄
+
+<p align="center">
+ <a>
+ <img  width="200" height="200" src="https://media-exp1.licdn.com/dms/image/C560BAQGh8hr-FgbrHw/company-logo_200_200/0/1602422883512?e=2159024400&v=beta&t=s8IX2pN1J2v5SRRbgzVNzxnQ2rWeeMq2Xb__BYW60qE">
+
+</p>
+
+</br>
+
+## 🌟 Contributors 
+
+Thanks to these wonderful people ✨✨:
+
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/ucalyptus/Spotify-Recommendation-Engine/graphs/contributors">
+  				<img src="https://contrib.rocks/image?repo=ucalyptus/Spotify-Recommendation-Engine/graphs" />
+			</a>
+		</td>
+	</tr>
+</table>
