@@ -42,7 +42,7 @@ Thanks to these wonderful people ✨✨:
 	<tr>
 		<td>
 			<a href="https://github.com/ucalyptus/Spotify-Recommendation-Engine/graphs/contributors">
-  				<img src="https://contrib.rocks/image?repo=ucalyptus/Spotify-Recommendation-Engine/graphs" />
+  				<img src="https://contrib.rocks/image?repo=ucalyptus/Spotify-Recommendation-Engine" />
 			</a>
 		</td>
 	</tr>
