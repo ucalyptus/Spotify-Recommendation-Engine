@@ -37,3 +37,8 @@ Thanks to these wonderful people ✨✨:
 		</td>
 	</tr>
 </table>
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ucalyptus/Spotify-Recommendation-Engine&type=Timeline)](https://star-history.com/#ucalyptus/Spotify-Recommendation-Engine&Timeline)
+
