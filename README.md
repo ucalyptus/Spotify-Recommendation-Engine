@@ -16,7 +16,7 @@
 [Spotify Developer](https://beta.developer.spotify.com/documentation/web-api/) for more info 
 
 ## Recommender System:
-## [Notebook](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/Spotify_Recommendation_System_.ipynb) | [Playlist created using the notebook](https://open.spotify.com/playlist/4D8p3hVYwgngTmf1FHol0Y)
+## [Notebook](https://github.com/ucalyptus/Spotify-Recommendation-Engine/blob/master/Working_Notebook.ipynb) | [Playlist created using the notebook](https://open.spotify.com/playlist/4D8p3hVYwgngTmf1FHol0Y)
 
 # Engage in the [Discussions](https://github.com/ucalyptus/Spotify-Recommendation-Engine/discussions) for more questions.
 
